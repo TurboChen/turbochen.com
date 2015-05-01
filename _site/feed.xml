@@ -1,0 +1,1658 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Turbo Chen</title>
+    <description>◕‿◕&lt;br&gt;
+</description>
+    <link>http://turbochen.com/</link>
+    <atom:link href="http://turbochen.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 01 May 2015 15:57:38 +0800</pubDate>
+    <lastBuildDate>Fri, 01 May 2015 15:57:38 +0800</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Hello World</title>
+        <description>&lt;h1 id=&quot;section&quot;&gt;1&lt;/h1&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;2&lt;/h2&gt;
+
+&lt;h3 id=&quot;section-2&quot;&gt;3&lt;/h3&gt;
+
+&lt;h4 id=&quot;section-3&quot;&gt;4&lt;/h4&gt;
+
+&lt;p&gt;Welcome to &lt;a href=&quot;http://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;http://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;http://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;quick-start&quot;&gt;Quick Start&lt;/h2&gt;
+
+&lt;h3 id=&quot;create-a-new-post&quot;&gt;Create a new post&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;bash
+$ hexo new &quot;My New Post&quot;
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;More info: &lt;a href=&quot;http://hexo.io/docs/writing.html&quot;&gt;Writing&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;run-server&quot;&gt;Run server&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;bash
+$ hexo server
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;More info: &lt;a href=&quot;http://hexo.io/docs/server.html&quot;&gt;Server&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;generate-static-files&quot;&gt;Generate static files&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;bash
+$ hexo generate
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;More info: &lt;a href=&quot;http://hexo.io/docs/generating.html&quot;&gt;Generating&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;deploy-to-remote-sites&quot;&gt;Deploy to remote sites&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;bash
+$ hexo deploy
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;More info: &lt;a href=&quot;http://hexo.io/docs/deployment.html&quot;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 01 May 2015 00:00:00 +0800</pubDate>
+        <link>http://turbochen.com/2015/05/01/hello.html</link>
+        <guid isPermaLink="true">http://turbochen.com/2015/05/01/hello.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>LAMP Wiki</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;Reference: http://zh.wikipedia.org/zh-cn/LAMP&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;LAMP是指一组通常一起使用来运行动态网站或者服务器的自由软件名称首字母缩写：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Linux，操作系统&lt;/li&gt;
+  &lt;li&gt;Apache，网页服务器&lt;/li&gt;
+  &lt;li&gt;MariaDB或MySQL，数据库管理系统（或者数据库服务器）&lt;/li&gt;
+  &lt;li&gt;PHP、Perl或Python，脚本语言&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;虽然这些开放源代码程序本身并不是专门设计成同另几个程序一起工作的，但由于它们的廉价和普遍，这个组合开始流行（大多数Linux发行版本捆绑了这些软件）。当一起使用的时候，它们表现的像一个具有活力的“解决方案包”（Solution Packages）。其他的方案包有苹果的WebObjects（最初是应用服务器），Java／J2EE和微软的.NET架构。&lt;/p&gt;
+
+&lt;p&gt;“LAMP包”的脚本组件中包括了CGI web接口，它在90年代初期变得流行。这个技术允许网页浏览器的用户在服务器上执行一个程序，并且和接受静态的内容一样接受动态的内容。程序员使用脚本语言来创建这些程序因为它们能很容易有效的操作文本流，甚至当这些文本流并非源自程序自身时也是。正是由于这个原因系统设计者经常称这些脚本语言为胶水语言。&lt;/p&gt;
+
+&lt;p&gt;Michael Kunze在一篇为德国电脑杂志《c’t》（1998，第12期，230页）而写的文章中使用了缩略语“LAMP”。这篇文章意在展示一系列的自由软件成为了商业包的替换物。由于IT世界众所周知的对缩写的爱好，Kunze提出“LAMP”这一容易被市场接受的术语来普及自由软件的使用。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/LAMP_software_bundle.svg.png&quot; alt=&quot;LAMP_software_bundle&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/LAMPP_Architecture.png&quot; alt=&quot;LAMPP_Architecture&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 24 Feb 2015 00:00:00 +0800</pubDate>
+        <link>http://turbochen.com/2015/02/24/linux-wiki.html</link>
+        <guid isPermaLink="true">http://turbochen.com/2015/02/24/linux-wiki.html</guid>
+        
+        <category>linux</category>
+        
+        <category>wiki</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>VIM WIKI</title>
+        <description>&lt;h2 id=&quot;commands&quot;&gt;COMMANDS&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Reference: http://coolshell.cn/articles/5426.html&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;*&lt;code&gt;i&lt;/code&gt;Insert 模式，按 ESC 回到 Normal 模式.&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;x&lt;/code&gt; 删当前光标所在的一个字符。&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;:wq&lt;/code&gt; 存盘 + 退出 (:w 存盘, :q 退出)   （陈皓注：:w 后可以跟文件名）&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;dd&lt;/code&gt; 删除当前行，并把删除的行存到剪贴板里&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;p&lt;/code&gt; 粘贴剪贴板&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;h&lt;/code&gt; &lt;code&gt;j&lt;/code&gt; &lt;code&gt;k&lt;/code&gt; &lt;code&gt;l&lt;/code&gt; ↑ ↓ ← →&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;:help &amp;lt;command&amp;gt;&lt;/code&gt; 显示相关命令的帮助&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;a&lt;/code&gt; 在光标后插入&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;o&lt;/code&gt; 在当前行后插入一个新行&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;O&lt;/code&gt; 在当前行前插入一个新行&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;cw&lt;/code&gt; 替换从光标所在位置后到一个单词结尾的字符&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;0&lt;/code&gt; 数字零，到行头&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;^&lt;/code&gt; 到本行第一个不是blank字符的位置（所谓blank字符就是空格，tab，换行，回车等）&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;$&lt;/code&gt; 到本行行尾&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;g_&lt;/code&gt; 到本行最后一个不是blank字符的位置。&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;/pattern&lt;/code&gt; 搜索 pattern 的字符串（陈皓注：如果搜索出多个匹配，可按n键到下一个）&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;p&lt;/code&gt; 粘贴在当前位置之后&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;P&lt;/code&gt; 粘贴在当前位置之前&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;yy&lt;/code&gt; 拷贝当前行当行于 ddP&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;u&lt;/code&gt; undo&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;&amp;lt;Ctrl-R&amp;gt;&lt;/code&gt; redo&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;:e&lt;/code&gt; &amp;lt;path/to/file&amp;gt; → 打开一个文件&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;:w&lt;/code&gt; 存盘&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;:saveas&lt;/code&gt; &amp;lt;path/to/file&amp;gt; → 另存为 &amp;lt;path/to/file&amp;gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;:x&lt;/code&gt; &lt;code&gt;ZZ&lt;/code&gt; &lt;code&gt;:wq&lt;/code&gt; 保存并退出 (:x 表示仅在需要时保存，ZZ不需要输入冒号并回车)&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;:q!&lt;/code&gt; 退出不保存&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;:qa!&lt;/code&gt; 强行退出所有的正在编辑的文件，就算别的文件有更改。&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;:bn&lt;/code&gt; &lt;code&gt;:bp&lt;/code&gt; 你可以同时打开很多文件，使用这两个命令来切换下一个或上一个文件。（陈皓注：我喜欢使用:n到下一个文件）&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;.&lt;/code&gt; (小数点) 可以重复上一次的命令&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;N&amp;lt;command&amp;gt;&lt;/code&gt; 重复某个命令N次&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;2dd&lt;/code&gt; 删除2行&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;3p&lt;/code&gt; 粘贴文本3次&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;100idesu [ESC]&lt;/code&gt; 会写下 “desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu desu “&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;.&lt;/code&gt; 重复上一个命令—— 100 “desu “.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;3.&lt;/code&gt; 重复 3 次 “desu” (注意：不是 300，你看，VIM多聪明啊).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;NG&lt;/code&gt; 到第 N 行 （陈皓注：注意命令中的G是大写的，另我一般使用 : N 到第N行，如 :137 到第137行）&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;gg&lt;/code&gt; 到第一行。（陈皓注：相当于1G，或 :1）&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;G&lt;/code&gt; 到最后一行。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;w&lt;/code&gt; 到下一个单词的开头。&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;e&lt;/code&gt; 到下一个单词的结尾。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;%&lt;/code&gt; 匹配括号移动，包括 (, {, [. （陈皓注：你需要把光标先移到括号上）&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;*&lt;/code&gt; 和 &lt;code&gt;#&lt;/code&gt; 匹配光标当前所在的单词，移动光标到下一个（或上一个）匹配单词（*是下一个，#是上一个）&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;光标 &lt;code&gt;&amp;lt;start position&amp;gt;&amp;lt;command&amp;gt;&amp;lt;end position&amp;gt;&lt;/code&gt;
+    &lt;ul&gt;
+      &lt;li&gt;例如&lt;code&gt;0y$&lt;/code&gt;命令意味着：
+        &lt;ul&gt;
+          &lt;li&gt;&lt;code&gt;0&lt;/code&gt; 先到行头&lt;/li&gt;
+          &lt;li&gt;&lt;code&gt;y&lt;/code&gt; 从这里开始拷贝&lt;/li&gt;
+          &lt;li&gt;&lt;code&gt;$&lt;/code&gt; 拷贝到本行最后一个字符&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;ye&lt;/code&gt; 从当前位置拷贝到本单词的最后一个字符。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;y2/foo&lt;/code&gt; 来拷贝2个 “foo” 之间的字符串。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;还有很多时间并不一定你就一定要按y才会拷贝，下面的命令也会被拷贝：&lt;/li&gt;
+  &lt;li&gt;d (删除 )&lt;/li&gt;
+  &lt;li&gt;v (可视化的选择)&lt;/li&gt;
+  &lt;li&gt;gU (变大写)&lt;/li&gt;
+  &lt;li&gt;gu (变小写)&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;等等&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;（陈皓注：可视化选择是一个很有意思的命令，你可以先按v，然后移动光标，你就会看到文本被选择，然后，你可能d，也可y，也可以变大写等）&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;fa&lt;/code&gt; 到下一个为a的字符处，你也可以fs到下一个为s的字符。&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;t,&lt;/code&gt; 到逗号前的第一个字符。逗号可以变成其它字符。&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;3fa&lt;/code&gt; 在当前行查找第三个出现的a。&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;F&lt;/code&gt; 和 &lt;code&gt;T&lt;/code&gt; 与 &lt;code&gt;f&lt;/code&gt; 和 &lt;code&gt;t&lt;/code&gt; 一样，只不过是相反方向。&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;dt&quot;&lt;/code&gt; 删除所有的内容，直到遇到双引号&lt;code&gt;&quot;&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;区域选择 &lt;code&gt;&amp;lt;action&amp;gt;a&amp;lt;object&amp;gt;&lt;/code&gt; 或 &lt;code&gt;&amp;lt;action&amp;gt;i&amp;lt;object&amp;gt;&lt;/code&gt; visual模式&lt;/li&gt;
+  &lt;li&gt;action可以是任何的命令，如 d (删除), y (拷贝), v (可以视模式选择)。&lt;/li&gt;
+  &lt;li&gt;object 可能是： w 一个单词， W 一个以空格为分隔的单词， s 一个句字， p 一个段落。也可以是一个特别的字符：”、 ‘、 )、 }、 ]。
+    &lt;ul&gt;
+      &lt;li&gt;假设你有一个字符串 (map (+) (“foo”)) 而光标键在第一个 o 的位置。
+        &lt;ul&gt;
+          &lt;li&gt;vi” → 会选择 foo.&lt;/li&gt;
+          &lt;li&gt;va” → 会选择 “foo”&lt;/li&gt;
+          &lt;li&gt;vi) → 会选择 “foo”&lt;/li&gt;
+          &lt;li&gt;va) → 会选择(“foo”)&lt;/li&gt;
+          &lt;li&gt;v2i) → 会选择 map (+) (“foo”)&lt;/li&gt;
+          &lt;li&gt;v2a) → 会选择 (map (+) (“foo”))&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;块操作 &lt;code&gt;&amp;lt;Ctrl-V&amp;gt;&lt;/code&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code&gt;^&lt;/code&gt; 到行头&lt;/li&gt;
+      &lt;li&gt;&lt;code&gt;&amp;lt;Ctrl-V&amp;gt;&lt;/code&gt; 开始块操作&lt;/li&gt;
+      &lt;li&gt;&lt;code&gt;&amp;lt;Ctrl-D&amp;gt;&lt;/code&gt;或&lt;code&gt;j&lt;/code&gt; 向下移动&lt;/li&gt;
+      &lt;li&gt;&lt;code&gt;I* [ESC]&lt;/code&gt; 选中的首行都插入&lt;code&gt;* &lt;/code&gt;字符串&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;在Windows下的vim，你需要使用 &lt;ctrl-q&gt; 而不是 &lt;ctrl-v&gt;&lt;/ctrl-v&gt;&lt;/ctrl-q&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;自动提示： &lt;ctrl-n&gt; 和 &lt;ctrl-p&gt;&lt;/ctrl-p&gt;&lt;/ctrl-n&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;在 Insert 模式下，你可以输入一个词的开头，然后按 &lt;ctrl-p&gt;或是&lt;ctrl-n&gt;，自动补齐功能就出现了&lt;/ctrl-n&gt;&lt;/ctrl-p&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;宏录制 &lt;code&gt;qa&lt;/code&gt; 操作序列 &lt;code&gt;q&lt;/code&gt; &lt;code&gt;@a&lt;/code&gt; &lt;code&gt;@@&lt;/code&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code&gt;qa&lt;/code&gt; 把你的操作记录在寄存器 a。&lt;/li&gt;
+      &lt;li&gt;于是 &lt;code&gt;@a&lt;/code&gt; 会replay被录制的宏。&lt;/li&gt;
+      &lt;li&gt;&lt;code&gt;@@&lt;/code&gt; 是一个快捷键用来replay最新录制的宏。&lt;/li&gt;
+      &lt;li&gt;示例
+        &lt;ul&gt;
+          &lt;li&gt;在一个只有一行且这一行只有“1”的文本中，键入如下命令：&lt;/li&gt;
+          &lt;li&gt;&lt;code&gt;qaYp&amp;lt;Ctrl-A&amp;gt;q&lt;/code&gt;
+            &lt;ul&gt;
+              &lt;li&gt;&lt;code&gt;qa&lt;/code&gt; 开始录制&lt;/li&gt;
+              &lt;li&gt;&lt;code&gt;Yp&lt;/code&gt; 复制行.&lt;/li&gt;
+              &lt;li&gt;&lt;code&gt;&amp;lt;Ctrl-A&amp;gt;&lt;/code&gt; 增加1.&lt;/li&gt;
+              &lt;li&gt;&lt;code&gt;q&lt;/code&gt; 停止录制.&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;&lt;code&gt;@a&lt;/code&gt; 在1下面写下 2&lt;/li&gt;
+          &lt;li&gt;&lt;code&gt;@@&lt;/code&gt; 在2 正面写下3&lt;/li&gt;
+          &lt;li&gt;现在做 &lt;code&gt;100@@&lt;/code&gt; 会创建新的100行，并把数据增加到 103.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;可视化选择 &lt;code&gt;v&lt;/code&gt;,&lt;code&gt;V&lt;/code&gt;,&lt;code&gt;&amp;lt;Ctrl-V&amp;gt;&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;前面，我们看到了 &lt;ctrl-v&gt;的示例 （在Windows下应该是&lt;ctrl-q&gt;），我们可以使用 v 和 V。一但被选好了，你可以做下面的事
+&lt;/ctrl-q&gt;&lt;/ctrl-v&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;code&gt;J&lt;/code&gt; 把所有的行连接起来（变成一行）&lt;/li&gt;
+      &lt;li&gt;&lt;code&gt;&amp;lt;&lt;/code&gt; 或 &lt;code&gt;&amp;gt;&lt;/code&gt; 左右缩进&lt;/li&gt;
+      &lt;li&gt;&lt;code&gt;=&lt;/code&gt; 自动给缩进 （陈皓注：这个功能相当强大，我太喜欢了）&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;在所有被选择的行后加上点东西
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code&gt;&amp;lt;Ctrl-V&amp;gt;&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;选中相关的行 (可使用 &lt;code&gt;j&lt;/code&gt; 或 &lt;code&gt;&amp;lt;Ctrl-D&amp;gt;&lt;/code&gt; 或是 &lt;code&gt;/pattern&lt;/code&gt; 或是 &lt;code&gt;%&lt;/code&gt; 等……)&lt;/li&gt;
+      &lt;li&gt;&lt;code&gt;$&lt;/code&gt; 到行最后&lt;/li&gt;
+      &lt;li&gt;&lt;code&gt;A&amp;lt;输入字符串&amp;gt;[ESC]&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;分屏 &lt;code&gt;:split&lt;/code&gt; 和 &lt;code&gt;:vsplit&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;下面是主要的命令，你可以使用VIM的帮助 &lt;code&gt;:help split&lt;/code&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code&gt;:split&lt;/code&gt; 创建分屏 (:vsplit创建垂直分屏)&lt;/li&gt;
+      &lt;li&gt;&lt;code&gt;&amp;lt;Ctrl-W&amp;gt;&amp;lt;dir&amp;gt;&lt;/code&gt; dir就是方向，可以是 hjkl 或是 ←↓↑→ 中的一个，其用来切换分屏。&lt;/li&gt;
+      &lt;li&gt;&lt;code&gt;&amp;lt;Ctrl-W&amp;gt;_ (或 &amp;lt;Ctrl-W&amp;gt;|)&lt;/code&gt; 最大化尺寸 (&lt;ctrl-w&gt;| 垂直分屏)&lt;/ctrl-w&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code&gt;&amp;lt;Ctrl-W&amp;gt;+ (或 &amp;lt;Ctrl-W&amp;gt;-)&lt;/code&gt; 增加尺寸&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 22 Feb 2015 00:00:00 +0800</pubDate>
+        <link>http://turbochen.com/2015/02/22/vim-wiki.html</link>
+        <guid isPermaLink="true">http://turbochen.com/2015/02/22/vim-wiki.html</guid>
+        
+        <category>vim</category>
+        
+        <category>wiki</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Register Operation</title>
+        <description>&lt;hr /&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;cp&quot;&gt;#define ON  0&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;#define OFF 1&lt;/span&gt;
+
+&lt;span class=&quot;cp&quot;&gt;#define LED1(a)	if (a)	\&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;          GPIO_SetBits(GPIOB,GPIO_Pin_0);\&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;          else		\&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;          GPIO_ResetBits(GPIOB,GPIO_Pin_0)&lt;/span&gt;
+
+&lt;span class=&quot;cp&quot;&gt;#define LED2(a)	if (a)	\&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;          GPIO_SetBits(GPIOF,GPIO_Pin_7);\&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;          else		\&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;          GPIO_ResetBits(GPIOF,GPIO_Pin_7)&lt;/span&gt;
+
+&lt;span class=&quot;cp&quot;&gt;#define LED3(a)	if (a)	\&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;          GPIO_SetBits(GPIOF,GPIO_Pin_8);\&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;          else		\&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;          GPIO_ResetBits(GPIOF,GPIO_Pin_8)&lt;/span&gt;
+
+
+&lt;span class=&quot;cp&quot;&gt;#define	digitalHi(p,i)				{p-&amp;gt;BSRR=i;}&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;#define digitalLo(p,i)				{p-&amp;gt;BRR	=i;}&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;#define digitalToggle(p,i)		{p-&amp;gt;ODR ^=i;}&lt;/span&gt;
+
+
+&lt;span class=&quot;cp&quot;&gt;#define LED1_TOGGLE		digitalToggle(GPIOB,GPIO_Pin_0)&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;#define LED1_OFF			digitalHi(GPIOB,GPIO_Pin_0)&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;#define LED1_ON				digitalLo(GPIOB,GPIO_Pin_0)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+</description>
+        <pubDate>Mon, 26 Jan 2015 00:00:00 +0800</pubDate>
+        <link>http://turbochen.com/2015/01/26/register-operation.html</link>
+        <guid isPermaLink="true">http://turbochen.com/2015/01/26/register-operation.html</guid>
+        
+        <category>stm32</category>
+        
+        <category>register</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Github for Windows 下载安装失败的解法</title>
+        <description>&lt;p&gt;&lt;code&gt;Win+R&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;把&lt;code&gt;rundll32 %SystemRoot%\system32\dfshim.dll CleanOnlineAppCache&lt;/code&gt;复制进去&lt;/p&gt;
+
+&lt;p&gt;然后&lt;code&gt;Enter&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;之后最好是把&lt;code&gt;C:\Users\你的用户名\AppData\Local\Apps&lt;/code&gt;这个&lt;code&gt;Apps&lt;/code&gt;文件夹删了&lt;/p&gt;
+
+&lt;p&gt;然后就可以正常安装了&lt;/p&gt;
+
+&lt;p&gt;在IE浏览器键入&lt;code&gt;https://github-windows.s3.amazonaws.com/GitHub.application&lt;/code&gt; -» &lt;code&gt;Enter&lt;/code&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;之前可以在Internet Options里的受信任站点里把&lt;code&gt;https://github-windows.s3.amazonaws.com/GitHub.application&lt;/code&gt;添加进去&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Mon, 19 Jan 2015 00:00:00 +0800</pubDate>
+        <link>http://turbochen.com/2015/01/19/github-for-windwos-help.html</link>
+        <guid isPermaLink="true">http://turbochen.com/2015/01/19/github-for-windwos-help.html</guid>
+        
+        <category>github</category>
+        
+        <category>windows</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>STM32 Wiki</title>
+        <description>&lt;h2 id=&quot;gpio-init-structure-definition&quot;&gt;GPIO Init structure definition&lt;/h2&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;k&quot;&gt;typedef&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;struct&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;kt&quot;&gt;uint16_t&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;GPIO_Pin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;             &lt;span class=&quot;cm&quot;&gt;/*!&amp;lt; Specifies the GPIO pins to be configured.&lt;/span&gt;
+&lt;span class=&quot;cm&quot;&gt;                                      This parameter can be any value of @ref GPIO_pins_define */&lt;/span&gt;
+                                 &lt;span class=&quot;cm&quot;&gt;/*指定将要进行配置的 GPIO 引脚*/&lt;/span&gt;
+                                 
+  &lt;span class=&quot;n&quot;&gt;GPIOSpeed_TypeDef&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;GPIO_Speed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;  &lt;span class=&quot;cm&quot;&gt;/*!&amp;lt; Specifies the speed for the selected pins.&lt;/span&gt;
+&lt;span class=&quot;cm&quot;&gt;                                      This parameter can be a value of @ref GPIOSpeed_TypeDef */&lt;/span&gt;
+                                 &lt;span class=&quot;cm&quot;&gt;/*指定 GPIO 引脚可输出的最高频率*/&lt;/span&gt;
+
+  &lt;span class=&quot;n&quot;&gt;GPIOMode_TypeDef&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;GPIO_Mode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;    &lt;span class=&quot;cm&quot;&gt;/*!&amp;lt; Specifies the operating mode for the selected pins.&lt;/span&gt;
+&lt;span class=&quot;cm&quot;&gt;                                      This parameter can be a value of @ref GPIOMode_TypeDef */&lt;/span&gt;
+                                 &lt;span class=&quot;cm&quot;&gt;/*指定 GPIO 引脚将要配置成的工作状态*/&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GPIO_InitTypeDef&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;gpiopinsdefine&quot;&gt;GPIO_pins_define&lt;/h2&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;cp&quot;&gt;#define GPIO_Pin_0                 ((uint16_t)0x0001)  &lt;/span&gt;&lt;span class=&quot;cm&quot;&gt;/*!&amp;lt; Pin 0 selected */&lt;/span&gt;&lt;span class=&quot;cp&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;#define GPIO_Pin_1                 ((uint16_t)0x0002)  &lt;/span&gt;&lt;span class=&quot;cm&quot;&gt;/*!&amp;lt; Pin 1 selected */&lt;/span&gt;&lt;span class=&quot;cp&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;#define GPIO_Pin_2                 ((uint16_t)0x0004)  &lt;/span&gt;&lt;span class=&quot;cm&quot;&gt;/*!&amp;lt; Pin 2 selected */&lt;/span&gt;&lt;span class=&quot;cp&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;#define GPIO_Pin_3                 ((uint16_t)0x0008)  &lt;/span&gt;&lt;span class=&quot;cm&quot;&gt;/*!&amp;lt; Pin 3 selected */&lt;/span&gt;&lt;span class=&quot;cp&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;#define GPIO_Pin_4                 ((uint16_t)0x0010)  &lt;/span&gt;&lt;span class=&quot;cm&quot;&gt;/*!&amp;lt; Pin 4 selected */&lt;/span&gt;&lt;span class=&quot;cp&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;#define GPIO_Pin_5                 ((uint16_t)0x0020)  &lt;/span&gt;&lt;span class=&quot;cm&quot;&gt;/*!&amp;lt; Pin 5 selected */&lt;/span&gt;&lt;span class=&quot;cp&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;#define GPIO_Pin_6                 ((uint16_t)0x0040)  &lt;/span&gt;&lt;span class=&quot;cm&quot;&gt;/*!&amp;lt; Pin 6 selected */&lt;/span&gt;&lt;span class=&quot;cp&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;#define GPIO_Pin_7                 ((uint16_t)0x0080)  &lt;/span&gt;&lt;span class=&quot;cm&quot;&gt;/*!&amp;lt; Pin 7 selected */&lt;/span&gt;&lt;span class=&quot;cp&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;#define GPIO_Pin_8                 ((uint16_t)0x0100)  &lt;/span&gt;&lt;span class=&quot;cm&quot;&gt;/*!&amp;lt; Pin 8 selected */&lt;/span&gt;&lt;span class=&quot;cp&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;#define GPIO_Pin_9                 ((uint16_t)0x0200)  &lt;/span&gt;&lt;span class=&quot;cm&quot;&gt;/*!&amp;lt; Pin 9 selected */&lt;/span&gt;&lt;span class=&quot;cp&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;#define GPIO_Pin_10                ((uint16_t)0x0400)  &lt;/span&gt;&lt;span class=&quot;cm&quot;&gt;/*!&amp;lt; Pin 10 selected */&lt;/span&gt;&lt;span class=&quot;cp&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;#define GPIO_Pin_11                ((uint16_t)0x0800)  &lt;/span&gt;&lt;span class=&quot;cm&quot;&gt;/*!&amp;lt; Pin 11 selected */&lt;/span&gt;&lt;span class=&quot;cp&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;#define GPIO_Pin_12                ((uint16_t)0x1000)  &lt;/span&gt;&lt;span class=&quot;cm&quot;&gt;/*!&amp;lt; Pin 12 selected */&lt;/span&gt;&lt;span class=&quot;cp&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;#define GPIO_Pin_13                ((uint16_t)0x2000)  &lt;/span&gt;&lt;span class=&quot;cm&quot;&gt;/*!&amp;lt; Pin 13 selected */&lt;/span&gt;&lt;span class=&quot;cp&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;#define GPIO_Pin_14                ((uint16_t)0x4000)  &lt;/span&gt;&lt;span class=&quot;cm&quot;&gt;/*!&amp;lt; Pin 14 selected */&lt;/span&gt;&lt;span class=&quot;cp&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;#define GPIO_Pin_15                ((uint16_t)0x8000)  &lt;/span&gt;&lt;span class=&quot;cm&quot;&gt;/*!&amp;lt; Pin 15 selected */&lt;/span&gt;&lt;span class=&quot;cp&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;#define GPIO_Pin_All               ((uint16_t)0xFFFF)  &lt;/span&gt;&lt;span class=&quot;cm&quot;&gt;/*!&amp;lt; All pins selected */&lt;/span&gt;&lt;span class=&quot;cp&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;output-maximum-frequency-selection&quot;&gt;Output Maximum frequency selection&lt;/h2&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;k&quot;&gt;typedef&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;enum&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//枚举常量&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; 
+  &lt;span class=&quot;n&quot;&gt;GPIO_Speed_10MHz&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;GPIO_Speed_2MHz&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; 
+  &lt;span class=&quot;n&quot;&gt;GPIO_Speed_50MHz&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GPIOSpeed_TypeDef&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;#define IS_GPIO_SPEED(SPEED) (((SPEED) == GPIO_Speed_10MHz) || ((SPEED) == GPIO_Speed_2MHz) || \&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;                              ((SPEED) == GPIO_Speed_50MHz))&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;configuration-mode-enumeration&quot;&gt;Configuration Mode enumeration&lt;/h2&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;k&quot;&gt;typedef&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;enum&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;GPIO_Mode_AIN&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;              &lt;span class=&quot;c1&quot;&gt;//模拟输入模式&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;GPIO_Mode_IN_FLOATING&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x04&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;     &lt;span class=&quot;c1&quot;&gt;//浮空输入模式&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;GPIO_Mode_IPD&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x28&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;             &lt;span class=&quot;c1&quot;&gt;//下拉输入模式&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;GPIO_Mode_IPU&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x48&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;             &lt;span class=&quot;c1&quot;&gt;//上啦输入模式&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;GPIO_Mode_Out_OD&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x14&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;          &lt;span class=&quot;c1&quot;&gt;//开漏输出模式&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;GPIO_Mode_Out_PP&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;          &lt;span class=&quot;c1&quot;&gt;//通用推挽输出模式&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;GPIO_Mode_AF_OD&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x1C&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;           &lt;span class=&quot;c1&quot;&gt;//复用功能开漏输出&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;GPIO_Mode_AF_PP&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x18&lt;/span&gt;            &lt;span class=&quot;c1&quot;&gt;//复用功能推挽输出&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GPIOMode_TypeDef&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;cp&quot;&gt;#define IS_GPIO_MODE(MODE) (((MODE) == GPIO_Mode_AIN) || ((MODE) == GPIO_Mode_IN_FLOATING) || \&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;                            ((MODE) == GPIO_Mode_IPD) || ((MODE) == GPIO_Mode_IPU) || \&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;                            ((MODE) == GPIO_Mode_Out_OD) || ((MODE) == GPIO_Mode_Out_PP) || \&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;                            ((MODE) == GPIO_Mode_AF_OD) || ((MODE) == GPIO_Mode_AF_PP))&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;startupstm32f10xhds&quot;&gt;启动文件 startup_stm32f10x_hd.s&lt;/h2&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Reset&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;handler&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;子程序开始&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Reset_Handler&lt;/span&gt;   &lt;span class=&quot;n&quot;&gt;PROC&lt;/span&gt;
+                &lt;span class=&quot;n&quot;&gt;EXPORT&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;Reset_Handler&lt;/span&gt;             &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;WEAK&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;    &lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;输出子程序&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Reset_Handler&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;到外部文件&lt;/span&gt;
+                &lt;span class=&quot;n&quot;&gt;IMPORT&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;__main&lt;/span&gt;          &lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;从外部文件中引入&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__main&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;函数&lt;/span&gt;
+                &lt;span class=&quot;n&quot;&gt;IMPORT&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;SystemInit&lt;/span&gt;      &lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;从外部文件引入&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;SystemInit&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;函数&lt;/span&gt;
+                &lt;span class=&quot;n&quot;&gt;LDR&lt;/span&gt;     &lt;span class=&quot;n&quot;&gt;R0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;SystemInit&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;把&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;SystemInit&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;函数调用地址加载到通用寄存器&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;r0&lt;/span&gt;
+                &lt;span class=&quot;n&quot;&gt;BLX&lt;/span&gt;     &lt;span class=&quot;n&quot;&gt;R0&lt;/span&gt;              &lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;跳转到&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;r0&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;中保存的地址执行程序（调用&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;SystemInit&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;函数）&lt;/span&gt;
+                &lt;span class=&quot;n&quot;&gt;LDR&lt;/span&gt;     &lt;span class=&quot;n&quot;&gt;R0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__main&lt;/span&gt;     &lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;把&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;main&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;函数调用地址加载到通用寄存器&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;r0&lt;/span&gt;
+                &lt;span class=&quot;n&quot;&gt;BX&lt;/span&gt;      &lt;span class=&quot;n&quot;&gt;R0&lt;/span&gt;              &lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;跳转到&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;r0&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;中保存的地址执行程序（调用&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;main&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;函数）&lt;/span&gt;
+                &lt;span class=&quot;n&quot;&gt;ENDP&lt;/span&gt;    &lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;子程序结束&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;当芯片被复位（包括上电复位）时，将开始运行这一段代码，运行过程是先调用SystemInit()函数，再进入 C 语言中的“__main”（注意与 main 的区别）函数执行，这是一个 C 标准库的初始化函数，执行这个函数后，最终跳转到用户文件中的“main”函数入口，开始运行主程序。也就是说，在进入 main 函数之前调用了一个名为 SystemInit() 的函数。这个函数的定义在 system_stm32f10x.c 文件之中，它的作用是设置系统时钟 SYSCLK。函数的执行流程是先将与配置时钟相关的寄存器都复位为默认值，复位寄存器后，调用了另外一个函数SetSysClock()，SetSysClock()&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;configures-the-system-clock-frequency-hclk-pclk2-and-pclk1-prescalers&quot;&gt;Configures the System clock frequency, HCLK, PCLK2 and PCLK1 prescalers.&lt;/h2&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;k&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;SetSysClock&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;#ifdef SYSCLK_FREQ_HSE&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;SetSysClockToHSE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;#elif defined SYSCLK_FREQ_24MHz&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;SetSysClockTo24&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;#elif defined SYSCLK_FREQ_36MHz&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;SetSysClockTo36&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;#elif defined SYSCLK_FREQ_48MHz&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;SetSysClockTo48&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;#elif defined SYSCLK_FREQ_56MHz&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;SetSysClockTo56&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;  
+&lt;span class=&quot;cp&quot;&gt;#elif defined SYSCLK_FREQ_72MHz&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;SetSysClockTo72&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;#endif&lt;/span&gt;
+ 
+ &lt;span class=&quot;cm&quot;&gt;/* If none of the define above is enabled, the HSI is used as System clock&lt;/span&gt;
+&lt;span class=&quot;cm&quot;&gt;    source (default after reset) */&lt;/span&gt; 
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;sysclkfreq-&quot;&gt;SYSCLK_FREQ 的宏定义&lt;/h2&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;cp&quot;&gt;#if defined (STM32F10X_LD_VL) || (defined STM32F10X_MD_VL) || (defined STM32F10X_HD_VL)&lt;/span&gt;
+&lt;span class=&quot;cm&quot;&gt;/* #define SYSCLK_FREQ_HSE    HSE_VALUE */&lt;/span&gt;
+ &lt;span class=&quot;cp&quot;&gt;#define SYSCLK_FREQ_24MHz  24000000&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;#else&lt;/span&gt;
+&lt;span class=&quot;cm&quot;&gt;/* #define SYSCLK_FREQ_HSE    HSE_VALUE */&lt;/span&gt;
+&lt;span class=&quot;cm&quot;&gt;/* #define SYSCLK_FREQ_24MHz  24000000 */&lt;/span&gt; 
+&lt;span class=&quot;cm&quot;&gt;/* #define SYSCLK_FREQ_36MHz  36000000 */&lt;/span&gt;
+&lt;span class=&quot;cm&quot;&gt;/* #define SYSCLK_FREQ_48MHz  48000000 */&lt;/span&gt;
+&lt;span class=&quot;cm&quot;&gt;/* #define SYSCLK_FREQ_56MHz  56000000 */&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;#define SYSCLK_FREQ_72MHz  72000000&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;#endif&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;gpio--apb2-&quot;&gt;所有的 GPIO 都是挂载在 APB2 上的。&lt;/h2&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;RCC_APB2PeriphClockCmd&lt;/span&gt;  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;  &lt;span class=&quot;kt&quot;&gt;uint32_t&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;RCC_APB2Periph&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;  
+                                &lt;span class=&quot;n&quot;&gt;FunctionalState&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;NewState&lt;/span&gt;  
+ &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;   
+
+&lt;span class=&quot;c1&quot;&gt;// Enables or disables the High Speed APB (APB2) peripheral clock. &lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// Parameters: RCC_APB2Periph,: specifies the APB2 peripheral to gates its clock. This parameter can be any combination of the following values: &lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;RCC_APB2Periph_AFIO&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; 
+&lt;span class=&quot;n&quot;&gt;RCC_APB2Periph_GPIOA&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; 
+&lt;span class=&quot;n&quot;&gt;RCC_APB2Periph_GPIOB&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; 
+&lt;span class=&quot;n&quot;&gt;RCC_APB2Periph_GPIOC&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; 
+&lt;span class=&quot;n&quot;&gt;RCC_APB2Periph_GPIOD&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; 
+&lt;span class=&quot;n&quot;&gt;RCC_APB2Periph_GPIOE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; 
+&lt;span class=&quot;n&quot;&gt;RCC_APB2Periph_GPIOF&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; 
+&lt;span class=&quot;n&quot;&gt;RCC_APB2Periph_GPIOG&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; 
+&lt;span class=&quot;n&quot;&gt;RCC_APB2Periph_ADC1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; 
+&lt;span class=&quot;n&quot;&gt;RCC_APB2Periph_ADC2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; 
+&lt;span class=&quot;n&quot;&gt;RCC_APB2Periph_TIM1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; 
+&lt;span class=&quot;n&quot;&gt;RCC_APB2Periph_SPI1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; 
+&lt;span class=&quot;n&quot;&gt;RCC_APB2Periph_TIM8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; 
+&lt;span class=&quot;n&quot;&gt;RCC_APB2Periph_USART1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; 
+&lt;span class=&quot;n&quot;&gt;RCC_APB2Periph_ADC3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; 
+&lt;span class=&quot;n&quot;&gt;RCC_APB2Periph_TIM15&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; 
+&lt;span class=&quot;n&quot;&gt;RCC_APB2Periph_TIM16&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; 
+&lt;span class=&quot;n&quot;&gt;RCC_APB2Periph_TIM17&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; 
+&lt;span class=&quot;n&quot;&gt;RCC_APB2Periph_TIM9&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; 
+&lt;span class=&quot;n&quot;&gt;RCC_APB2Periph_TIM10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; 
+&lt;span class=&quot;n&quot;&gt;RCC_APB2Periph_TIM11&lt;/span&gt; 
+ 
+&lt;span class=&quot;c1&quot;&gt;// NewState,: new state of the specified peripheral clock. This parameter can be: ENABLE or DISABLE.  &lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// Return values: None&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;控制输出高电平、低电平&lt;/h2&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;GPIO_SetBits&lt;/span&gt;  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;GPIO_TypeDef&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;GPIOx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;  
+                        &lt;span class=&quot;kt&quot;&gt;uint16_t&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;GPIO_Pin&lt;/span&gt;  
+ &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Sets the selected data port bits.&lt;/p&gt;
+
+&lt;p&gt;Parameters:
+GPIOx,: where x can be (A..G) to select the GPIO peripheral.&lt;br /&gt;
+GPIO_Pin,: specifies the port bits to be written. This parameter can be any combination of GPIO_Pin_x where x can be (0..15).&lt;/p&gt;
+
+&lt;p&gt;Return values: None&lt;br /&gt;
+Definition at line 358 of file stm32f10x_gpio.c.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;GPIO_ResetBits&lt;/span&gt;  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;GPIO_TypeDef&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;GPIOx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;  
+                        &lt;span class=&quot;kt&quot;&gt;uint16_t&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;GPIO_Pin&lt;/span&gt;  
+ &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Clears the selected data port bits.&lt;/p&gt;
+
+&lt;p&gt;Parameters:
+GPIOx,: where x can be (A..G) to select the GPIO peripheral.&lt;br /&gt;
+GPIO_Pin,: specifies the port bits to be written. This parameter can be any combination of GPIO_Pin_x where x can be (0..15).&lt;/p&gt;
+
+&lt;p&gt;Return values: None&lt;br /&gt;
+Definition at line 374 of file stm32f10x_gpio.c.&lt;/p&gt;
+
+&lt;h2 id=&quot;gpioinit&quot;&gt;GPIO_Init()&lt;/h2&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;cm&quot;&gt;/**&lt;/span&gt;
+&lt;span class=&quot;cm&quot;&gt;  * @brief  Initializes the GPIOx peripheral according to the specified&lt;/span&gt;
+&lt;span class=&quot;cm&quot;&gt;  *         parameters in the GPIO_InitStruct.&lt;/span&gt;
+&lt;span class=&quot;cm&quot;&gt;  * @param  GPIOx: where x can be (A..G) to select the GPIO peripheral.&lt;/span&gt;
+&lt;span class=&quot;cm&quot;&gt;  * @param  GPIO_InitStruct: pointer to a GPIO_InitTypeDef structure that&lt;/span&gt;
+&lt;span class=&quot;cm&quot;&gt;  *         contains the configuration information for the specified GPIO peripheral.&lt;/span&gt;
+&lt;span class=&quot;cm&quot;&gt;  * @retval None&lt;/span&gt;
+&lt;span class=&quot;cm&quot;&gt;  */&lt;/span&gt;
+&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;GPIO_Init&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GPIO_TypeDef&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;GPIOx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;GPIO_InitTypeDef&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;GPIO_InitStruct&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;kt&quot;&gt;uint32_t&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;currentmode&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x00&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;currentpin&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x00&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pinpos&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x00&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pos&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x00&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;kt&quot;&gt;uint32_t&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tmpreg&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x00&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pinmask&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x00&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;cm&quot;&gt;/* Check the parameters */&lt;/span&gt; &lt;span class=&quot;cm&quot;&gt;/* 断言，用于检查输入的参数是否正确 */&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;assert_param&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;IS_GPIO_ALL_PERIPH&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GPIOx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;assert_param&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;IS_GPIO_MODE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GPIO_InitStruct&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GPIO_Mode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;assert_param&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;IS_GPIO_PIN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GPIO_InitStruct&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GPIO_Pin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;  
+  
+&lt;span class=&quot;cm&quot;&gt;/*---------------------------- GPIO Mode Configuration -----------------------*/&lt;/span&gt;
+&lt;span class=&quot;cm&quot;&gt;/*-------------------------------- GPIO 的模式配置 -----------------------------*/&lt;/span&gt;
+  &lt;span class=&quot;cm&quot;&gt;/*把输入参数 GPIO_Mode 的低四位暂存在 currentmode*/&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;currentmode&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;uint32_t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GPIO_InitStruct&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GPIO_Mode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;uint32_t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;mh&quot;&gt;0x0F&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;cm&quot;&gt;/*判断是否为输出模式，输出模式，可输入参数中输出模式的 bit4 位都是 1*/&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;((((&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;uint32_t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GPIO_InitStruct&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GPIO_Mode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;uint32_t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;mh&quot;&gt;0x10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x00&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; 
+    &lt;span class=&quot;cm&quot;&gt;/* Check the parameters */&lt;/span&gt; &lt;span class=&quot;cm&quot;&gt;/* 检查输入参数 */&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;assert_param&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;IS_GPIO_SPEED&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GPIO_InitStruct&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GPIO_Speed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
+    &lt;span class=&quot;cm&quot;&gt;/* Output mode */&lt;/span&gt; &lt;span class=&quot;cm&quot;&gt;/* 输出模式，所以要配置 GPIO 的速率:00(输入模式) 01(10MHz) 10(2MHz) 11 */&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;currentmode&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;uint32_t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GPIO_InitStruct&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GPIO_Speed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;cm&quot;&gt;/*---------------------------- GPIO CRL Configuration ------------------------*/&lt;/span&gt;
+&lt;span class=&quot;cm&quot;&gt;/*----------------------------- 配置 GPIO 的 CRL 寄存器，也就是配置 pin0 ~~ pin7 */&lt;/span&gt;
+  &lt;span class=&quot;cm&quot;&gt;/* Configure the eight low port pins */&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(((&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;uint32_t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GPIO_InitStruct&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GPIO_Pin&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;uint32_t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;mh&quot;&gt;0x00FF&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x00&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;cm&quot;&gt;/*备份原 CRL 寄存器的值*/&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;tmpreg&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;GPIOx&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;CRL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;cm&quot;&gt;/*循环，每次循环设置一个寄存器位*/&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pinpos&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x00&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pinpos&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x08&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pinpos&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;cm&quot;&gt;/*pos 的值为 1 左移 pinpos 位*/&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;pos&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;uint32_t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;mh&quot;&gt;0x01&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pinpos&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;cm&quot;&gt;/* Get the port pins position */&lt;/span&gt;  &lt;span class=&quot;cm&quot;&gt;/* 令 pos 与输入参数 GPIO_PIN 作位与运算，为下面的判断作准备 */&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;currentpin&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GPIO_InitStruct&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GPIO_Pin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pos&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+            &lt;span class=&quot;cm&quot;&gt;/*判断，若 currentpin == pos,说明 GPIO_PIN 参数中含的第 pos 个引脚需要配置*/&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;currentpin&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pos&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+                &lt;span class=&quot;cm&quot;&gt;/*pos 的值左移两位（乘以 4），因为寄存器中 4 个寄存器位配置一个引脚*/&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;pos&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pinpos&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;cm&quot;&gt;/* Clear the corresponding low control register bits */&lt;/span&gt; &lt;span class=&quot;cm&quot;&gt;/*以下两个句子，把控制这个引脚的 4 个寄存器位清零，其它寄存器位不变*/&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;pinmask&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;uint32_t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;mh&quot;&gt;0x0F&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pos&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;tmpreg&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pinmask&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;cm&quot;&gt;/* Write the mode configuration in the corresponding bits */&lt;/span&gt; &lt;span class=&quot;cm&quot;&gt;/* 向寄存器写入将要配置的引脚的模式 */&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;tmpreg&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;currentmode&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pos&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;cm&quot;&gt;/* Reset the corresponding ODR bit */&lt;/span&gt; &lt;span class=&quot;cm&quot;&gt;/* 复位 GPIO 引脚的输入输出默认值*/&lt;/span&gt;
+                &lt;span class=&quot;cm&quot;&gt;/*判断是否为下拉输入模式*/&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GPIO_InitStruct&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GPIO_Mode&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;GPIO_Mode_IPD&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+                    &lt;span class=&quot;cm&quot;&gt;/*下拉输入模式，引脚默认置 0，对 BRR 寄存器写 1 可对引脚置 0*/&lt;/span&gt;
+          &lt;span class=&quot;n&quot;&gt;GPIOx&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;BRR&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(((&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;uint32_t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;mh&quot;&gt;0x01&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pinpos&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+          &lt;span class=&quot;cm&quot;&gt;/* Set the corresponding ODR bit */&lt;/span&gt; &lt;span class=&quot;cm&quot;&gt;/*判断是否为上拉输入模式*/&lt;/span&gt;
+          &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GPIO_InitStruct&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GPIO_Mode&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;GPIO_Mode_IPU&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+          &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+                        &lt;span class=&quot;cm&quot;&gt;/*上拉输入模式，引脚默认值为 1，对 BSRR 寄存器写 1 可对引脚置 1*/&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;GPIOx&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;BSRR&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(((&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;uint32_t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;mh&quot;&gt;0x01&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pinpos&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+          &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;cm&quot;&gt;/*把前面处理后的暂存值写入到 CRL 寄存器之中*/&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;GPIOx&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;CRL&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tmpreg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;cm&quot;&gt;/*---------------------------- GPIO CRH Configuration ------------------------*/&lt;/span&gt;
+&lt;span class=&quot;cm&quot;&gt;/*对 CRH 寄存器配置的，当要配置的引脚为 pin8 ~~ pin15 的时候，配置 CRH 寄存器，这过程和配置 CRL 寄存器类似*/&lt;/span&gt;
+  &lt;span class=&quot;cm&quot;&gt;/* Configure the eight high port pins */&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GPIO_InitStruct&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GPIO_Pin&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x00FF&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;tmpreg&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;GPIOx&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;CRH&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pinpos&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x00&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pinpos&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x08&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pinpos&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;pos&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(((&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;uint32_t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;mh&quot;&gt;0x01&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pinpos&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x08&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
+      &lt;span class=&quot;cm&quot;&gt;/* Get the port pins position */&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;currentpin&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GPIO_InitStruct&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GPIO_Pin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pos&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;currentpin&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pos&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;pos&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pinpos&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;cm&quot;&gt;/* Clear the corresponding high control register bits */&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;pinmask&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;uint32_t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;mh&quot;&gt;0x0F&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pos&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;tmpreg&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pinmask&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;cm&quot;&gt;/* Write the mode configuration in the corresponding bits */&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;tmpreg&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;currentmode&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pos&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;cm&quot;&gt;/* Reset the corresponding ODR bit */&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GPIO_InitStruct&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GPIO_Mode&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;GPIO_Mode_IPD&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+          &lt;span class=&quot;n&quot;&gt;GPIOx&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;BRR&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(((&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;uint32_t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;mh&quot;&gt;0x01&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pinpos&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x08&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;cm&quot;&gt;/* Set the corresponding ODR bit */&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GPIO_InitStruct&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GPIO_Mode&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;GPIO_Mode_IPU&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+          &lt;span class=&quot;n&quot;&gt;GPIOx&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;BSRR&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(((&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;uint32_t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;mh&quot;&gt;0x01&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pinpos&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x08&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;GPIOx&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;CRH&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tmpreg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+</description>
+        <pubDate>Sun, 18 Jan 2015 00:00:00 +0800</pubDate>
+        <link>http://turbochen.com/2015/01/18/stm32-wiki.html</link>
+        <guid isPermaLink="true">http://turbochen.com/2015/01/18/stm32-wiki.html</guid>
+        
+        <category>stm32</category>
+        
+        <category>wiki</category>
+        
+        <category>microcontroller</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>C的位操作范例</title>
+        <description>&lt;h3 id=&quot;char-abit6-0-4-230&quot;&gt;将 char型变量 a的第七位(bit6)清 0，其它位不变。见错误!未找到引用源。。 代码清单4-23对某位清0范例&lt;/h3&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;	&lt;span class=&quot;c1&quot;&gt;//括号内1 左移6 位，得二进制数：0100 0000 &lt;/span&gt;
+				&lt;span class=&quot;c1&quot;&gt;//按位取反，得1011 1111 ，所得的数与a 作”位与&amp;amp;”运算， &lt;/span&gt;
+				&lt;span class=&quot;c1&quot;&gt;// a 的第7 位（bit6）被置零，而其它位不变。&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;abit6-1-4-24-4-241&quot;&gt;同理，将变量 a的第七位(bit6)置 1，其它位不变的方法见代码清单 4-24。 代码清单4-24对某位置1范例&lt;/h3&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//把第七位（bit6）置1，其它为不变&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;abit6-4-25-4-25&quot;&gt;将变量 a的第七位(bit6)取反，其他位不变的方法见代码清单 4-25。 代码清单4-25对某位取反范例&lt;/h3&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//把第七位（bit6）取反，其它位不变&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+</description>
+        <pubDate>Sat, 17 Jan 2015 00:00:00 +0800</pubDate>
+        <link>http://turbochen.com/2015/01/17/bit-manipulation-example.html</link>
+        <guid isPermaLink="true">http://turbochen.com/2015/01/17/bit-manipulation-example.html</guid>
+        
+        <category>c</category>
+        
+        <category>microcontroller</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Microcontrollers related</title>
+        <description>&lt;p&gt;使用&lt;code&gt;Ctrl+F&lt;/code&gt;来查找关键字&lt;/p&gt;
+
+&lt;h2 id=&quot;isr-interrupt-service-routines&quot;&gt;中断服务程序 (ISR, Interrupt Service Routines)&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;该寄存器用于存放正在被服务的所有中断级,包括尚未服务完而中途被别的中断打断了的中断级。&lt;/p&gt;
+
+  &lt;p&gt;所谓中断是指当CPU正在处理某件事情的时候，外部发生的某一事件（如一个电平的变化，一个脉冲沿的发生或定时器计数溢出等）请求CPU迅速去处理，于是CPU暂时中止当前的工作，转去处理所发生的事件。中断服务处理完该事件以后，再回到原来被中止的地方继续原来的工作。(via: baike.baidu.com)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;fast-interrupt-requestfiq&quot;&gt;快速中断请求（Fast Interrupt Request，FIQ)&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;在ARM中，FIQ模式是特权模式中的一种，同时也属于异常模式一类。用于高速数据传输或通道处理，在触发快速中断请求（FIQ）时进入。&lt;/p&gt;
+
+  &lt;p&gt;FIQ和IRQ(外部中断模式)之间有很大的区别。FIQ模式必须尽快处理，处理结束后离开这个模式；IRQ模式可以被FIQ模式中断，但IRQ不能中断FIQ模式；为使FIQ模式响应更快，FIQ模式具有更多的影子（Shadow）寄存器。FIQ模式必须禁用中断；如果一个中断例程必须重新启用中断，应使用IRQ模式而不是FIQ模式。(via: baike.baidu.com)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;在Cortex-M3里面取消了FIQ，利用”嵌套”中断来实现&lt;/p&gt;
+
+&lt;h2 id=&quot;nmi-non-maskable-interrupt&quot;&gt;不可屏蔽中断 (NMI, Non Maskable Interrupt)&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;NMI (Non Maskable Interrupt)——不可屏蔽中断(即CPU不能屏蔽)无论状态寄存器中 IF 位的状态如何,CPU收到有效的NMI必须进行响应;NMI是上升沿有效;中断类型号固定为2;它在被响应时无中断响应周期.不可屏蔽中断通常用于故障处理(如:协处理器运算出错,存储器校验出错,I/O通道校验出错等).&lt;/p&gt;
+
+  &lt;p&gt;IF = Interrupt Flag(中断状态) (via: baike.baidu.com)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;mpu-memory-protection-unit&quot;&gt;存储器保护单元 (MPU, Memory Protection Unit)&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;MPU 有很多玩法。最常见的就是由操作系统使用 MPU，以使特权级代码的数据，包括操作系统
+本身的数据不被其它用户程序弄坏。MPU 在保护内存时是按区管理的(“区”的原文是 region，以
+后不再中译此名词——译注)。它可以把某些内存 region 设置成只读，从而避免了那里的内容意外
+被更改；还可以在多任务系统中把不同任务之间的数据区隔离。一句话，它会使嵌入式系统变得更
+加健壮，更加可靠（很多行业标准，尤其是航空的，就规定了必须使用 MPU 来行使保护职能——译
+注）。(via: 《Cortex-M3 权威指南》)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Sun, 11 Jan 2015 00:00:00 +0800</pubDate>
+        <link>http://turbochen.com/2015/01/11/microcontrollers-related.html</link>
+        <guid isPermaLink="true">http://turbochen.com/2015/01/11/microcontrollers-related.html</guid>
+        
+        <category>microcontrollers</category>
+        
+        <category>related</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>CentOS7安装搜狗拼音后无法切换输入法的问题</title>
+        <description>&lt;p&gt;Settings -» Keyboard -» Shortcuts -» Typing -» 取消&lt;code&gt;Switch to next input source&lt;/code&gt;的快捷键设置（可以按下Backspace来取消）&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;可能是因为快捷键相互冲突&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Sun, 16 Nov 2014 00:00:00 +0800</pubDate>
+        <link>http://turbochen.com/linux/centos/2014/11/16/sougou-pinyin.html</link>
+        <guid isPermaLink="true">http://turbochen.com/linux/centos/2014/11/16/sougou-pinyin.html</guid>
+        
+        <category>linux</category>
+        
+        <category>centos</category>
+        
+        <category>sougou</category>
+        
+        
+        <category>linux</category>
+        
+        <category>centos</category>
+        
+      </item>
+    
+      <item>
+        <title>鸟哥的Linux私房菜（笔记）</title>
+        <description>&lt;h2 id=&quot;linux&quot;&gt;第七章 Linux文件与目录管理&lt;/h2&gt;
+
+&lt;h3 id=&quot;pwd-print-work-directory&quot;&gt;&lt;strong&gt;pwd&lt;/strong&gt; （print work directory）显示目前所在的目录&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code&gt;-P&lt;/code&gt; 取得正确的目录名称，而不是以连接文件的路径来显示&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;cdchange-directory-&quot;&gt;&lt;strong&gt;cd&lt;/strong&gt;(change directory) 切换目录&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;~&lt;/strong&gt; 表示用户的主文件夹，即&lt;code&gt;/home/username&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;-&lt;/strong&gt; 回到切换目录之前的目录，重复使用将会在两个目录间来回切换&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;mkdirmake-directory-&quot;&gt;&lt;strong&gt;mkdir&lt;/strong&gt;(make directory) 新建目录&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code&gt;-m&lt;/code&gt; 强制设置属性&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;若不使用&lt;code&gt;-m&lt;/code&gt;则使用默认属性（默认属性可使用&lt;code&gt;umask&lt;/code&gt;来查看）&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;rmdirremove-directory-&quot;&gt;&lt;strong&gt;rmdir&lt;/strong&gt;(remove directory) 移除目录&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code&gt;-p&lt;/code&gt; 连同上层的“空的”目录也一起删除&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;如果要将目录下的所有东西删除可以使用&lt;code&gt;rm -r &amp;lt;directory&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;lslist-&quot;&gt;&lt;strong&gt;ls&lt;/strong&gt;(list) 查看文件与目录&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;ls&lt;/strong&gt; [-aAdfFhilnrRSt] directory&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;ls&lt;/strong&gt; [–color={never,auto,always}] directory&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;ls&lt;/strong&gt; [–full-time] directory&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;-a&lt;/code&gt; 全部的文件，连同隐藏文件&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;-d&lt;/code&gt; 仅列出目录本身，不列出目录内的数据&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;-F&lt;/code&gt; 根据文件、目录等信息给予附加数据结构，例如：&lt;strong&gt;*&lt;/strong&gt; 代表可执行文件，&lt;strong&gt;/&lt;/strong&gt; 代表目录，&lt;strong&gt;=&lt;/strong&gt; 代表socket文件，&lt;strong&gt;|&lt;/strong&gt; 代表FIFO文件&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;-l&lt;/code&gt; 列出长数据串，包含文件的属性与权限等数据&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;-R&lt;/code&gt; 连同子目录内容一起列出来&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;-S&lt;/code&gt; 以文件容量大小排序&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;-t&lt;/code&gt; 以时间排序&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;--full-time&lt;/code&gt; 以完整时间模式（包含年、月、日、时、分）输出&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;--time={atime,ctime}&lt;/code&gt; 输出访问时间或改变权限属性时间（ctime）而非内容更改时间（modification time）&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;cp-copy&quot;&gt;&lt;strong&gt;cp&lt;/strong&gt; （copy）复制&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;cp&lt;/strong&gt; [-adfilprsu] source destination&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;cp&lt;/strong&gt; [options] source1 source2 source3 … directory&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;在默认的条件中，cp的源文件与目的文件的权限是不同的，目的文件的所有者通常会是命令操作者本身&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;若源文件有两个以上，最后一个目的的目录必须是“目录”才行&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;-a&lt;/code&gt; &lt;u&gt;相当于`-pdr`的意思&lt;/u&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;-d&lt;/code&gt; 若源文件为连接文件的属性（link file），则复制连接文件属性而非文件本身&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;-f&lt;/code&gt; 为强制（force）的意思，若目标文件已经存在且无法开启，则删除后再尝试一次&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;-i&lt;/code&gt; &lt;u&gt;若目标文件（destination）已经存在时，在覆盖时会询问操作的进行&lt;/u&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;-l&lt;/code&gt; 进行硬连接（hard link）的连接文件创建，而非复制文件本身&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;-p&lt;/code&gt; 连同文件的属性一起复制过去，而非使用默认属性（备份常用）&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;-r&lt;/code&gt; &lt;u&gt;递归持续复制&lt;/u&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;-s&lt;/code&gt; 复制成为符号连接文件（symbolic link），即“快捷方式”文件&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;-u&lt;/code&gt; 若destination比source旧才更新destination&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;rm-remove&quot;&gt;&lt;strong&gt;rm&lt;/strong&gt; （remove）移除文件或目录&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;rm&lt;/strong&gt; [-fir] 文件或目录&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;-f&lt;/code&gt; 就是force的意思，忽略不存在的文件，不会出现警告信息&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;-i&lt;/code&gt; 互动模式，在删除前会询问用户是否操作&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;-r&lt;/code&gt; 递归删除，最常用在目录的删除。&lt;u&gt;这是非常危险的参数！！！&lt;/u&gt;&lt;/p&gt;
+
+    &lt;p&gt;[terry@laptop ~]$ rm ./-text- #删除一个带有 - 开头的文件，因为 - 是参数&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;mv-move&quot;&gt;&lt;strong&gt;mv&lt;/strong&gt; （move）移动文件与目录，或更名&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;mv&lt;/strong&gt; [-fiu] source destination&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;mv&lt;/strong&gt; [options] source1 source2 source3 … directory&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;-f&lt;/code&gt; 就是force的意思，忽略不存在的文件，不会出现警告信息&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;-i&lt;/code&gt; 若目标文件（destination）存在时，就会询问是否覆盖&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;-u&lt;/code&gt; 若目标文件已经存在，且source比较新，才会更新（update）&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;如果有多个源文件或目录，则最后一个目标文件一定是“目录”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;section&quot;&gt;取得路径的文件名与目录名称&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;[terry@laptop ~]$ basename /etc/sysconfig/network
+network
+[terry@laptop ~]$ dirname /etc/sysconfig/network
+/etc/sysconfig
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;cat-concatenate&quot;&gt;&lt;strong&gt;cat&lt;/strong&gt; （concatenate）直接查看文件内容&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;cat&lt;/strong&gt; [-AbEnTv]&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;-A&lt;/code&gt; 相当于&lt;code&gt;-vET&lt;/code&gt;的整合参数，可列出一些特殊字符，而不是空白而已&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;-b&lt;/code&gt; 列出行号，仅针对非空白做行号显示，空白行不标行号&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;-E&lt;/code&gt; 将结尾的断行字符$显示出来&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;-n&lt;/code&gt; &lt;u&gt;打印出行号，连同空白行&lt;/u&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;-T&lt;/code&gt; 将&lt;strong&gt;[Tab]&lt;/strong&gt;按键以&lt;strong&gt;^T&lt;/strong&gt;显示出来&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;-v&lt;/code&gt; 列出一些看不出来的特殊字符&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;tac-&quot;&gt;&lt;strong&gt;tac&lt;/strong&gt; 反向列式&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;由最后一行到第一行反向在屏幕上显示出来（和cat相反）&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;nl-&quot;&gt;&lt;strong&gt;nl&lt;/strong&gt; 添加行号打印&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;nl&lt;/strong&gt; [-bnw]&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;-b&lt;/code&gt; 指定行号指定的方式，主要有两种&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;code&gt;-b -a&lt;/code&gt; 表示不论是否为空行，也同样列出行号（类似 &lt;code&gt;cat -n&lt;/code&gt; ）&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;code&gt;-b -t&lt;/code&gt; 如果有空行，空的那一行不要列出行号（默认值）&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;-n&lt;/code&gt; 列出行号表示的方法，主要有三种&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;code&gt;-n ln&lt;/code&gt; 行号在屏幕的最左方显示&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;code&gt;-n rn&lt;/code&gt; 行号在自己字段的最右方显示，且不加0&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;code&gt;-n rz&lt;/code&gt; 行号在自己字段的最右方显示，且加0&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;-w&lt;/code&gt; 行号字段占用的位数&lt;/p&gt;
+
+    &lt;p&gt;[terry@laptop ~]$ nl -b a -n rz /etc/issue #默认字段是6位数
+  000001	\S
+  000002	Kernel \r on an \m
+  000003
+  [terry@laptop ~]$ nl -b a -n rz -w 3 /etc/issue #改为显示三位数
+  001	\S
+  002	Kernel \r on an \m
+  003&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;more-&quot;&gt;&lt;strong&gt;more&lt;/strong&gt; 翻页查看&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;more&lt;/strong&gt; directory&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;空格键（Space）&lt;/code&gt; 代表向下翻一页&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;Enter&lt;/code&gt; 代表向下滚动一行&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;/字符串&lt;/code&gt; 代表在这个显示的内容当中，向下查询“字符串”这个关键字&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;:f&lt;/code&gt; 立即显示出文件名以及目前显示的行数&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;q&lt;/code&gt; 代表立刻离开more，就是退出的意思&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;b&lt;/code&gt; 或 &lt;code&gt;[Ctrl+b]&lt;/code&gt; 代表往回翻页，只对文件有用，对管道无用&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;less-&quot;&gt;&lt;strong&gt;less&lt;/strong&gt; 翻页查看&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;less&lt;/strong&gt; directory&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code&gt;空格键（Space）&lt;/code&gt; 向下翻动一页&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;PageDown&lt;/code&gt; 向下翻动一页&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;PageUp&lt;/code&gt; 向上翻动一页&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;/字符串&lt;/code&gt; 向下查询“字符串”&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;?字符串&lt;/code&gt; 向上查询“字符串”&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;n&lt;/code&gt; 重复前一个查询&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;N&lt;/code&gt; 反向重复前一个查询&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;q&lt;/code&gt; 退出less程序&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;head-&quot;&gt;&lt;strong&gt;head&lt;/strong&gt; 取出前面几行&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;head&lt;/strong&gt; [-n number] file&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code&gt;-n&lt;/code&gt; 后面接数字，代表显示几行的意思&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;tail-&quot;&gt;&lt;strong&gt;tail&lt;/strong&gt; 取出后面几行&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;tail&lt;/strong&gt; [-n number][-f] file&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code&gt;-n&lt;/code&gt; 后面接数字，表示显示几行的意思&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;-f&lt;/code&gt; 表示持续检测后面所接的文件名，要等到按下[Ctrl+C]才会结束tail的检测&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;默认情况下，显示最后的10行&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code&gt;# 如果想要显示/etc/man.config中的地11到20行
+[terry@laptop ~]$ head -n 20 /etc/man.config |tail -n 10
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;od-&quot;&gt;&lt;strong&gt;od&lt;/strong&gt; 非纯文本文件&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;od&lt;/strong&gt; [-t TYPE] file&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;-t&lt;/code&gt; 后面可以接各种“类型（TYPE）”的输出，例如&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;code&gt;a&lt;/code&gt; 利用默认的字符来输出&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;code&gt;c&lt;/code&gt; 利用ASCII字符来输出&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;code&gt;d[size]&lt;/code&gt; 利用十进制（decimal）来输出数据，每个整数占用size bytes&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;code&gt;f[size]&lt;/code&gt; 利用浮点数（floating）来输出数据，每个数占用size bytes&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;code&gt;o[size]&lt;/code&gt; 利用八进制（octal）来输出数据，每个整数占用size bytes&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;code&gt;x[size]&lt;/code&gt; 利用十六进制（hexadecimal）来输出数据，每个整数占用size bytes&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;touch-&quot;&gt;&lt;strong&gt;touch&lt;/strong&gt; 修改文件时间或创建新文件&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;modification time (mtime)&lt;/strong&gt;：当该文件的“内容数据”更改时，就会更新这个时间。内容数据指的是文件的内容，而不是文件的属性或权限&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;status time (ctime)&lt;/strong&gt;：当该文件的“状态”（status）改变时，就会更新这个时间，举例来说，像是权限与属性被更改了，都会更新这个时间&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;access time (atime)&lt;/strong&gt;：当“该文件的内容被取用”时，就会更新这个读取时间（access），举例来说，我们使用cat去读取/etc/man.config，就会更新该文件的atime了&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;在默认情况下，ls显示出来的是该文件的mtime，也就是这个文件的内容上次被更改的时间&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;touch&lt;/strong&gt; [acdmt] file&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;-a&lt;/code&gt; 仅修改访问时间&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;-c&lt;/code&gt; 仅修改文件的时间，若该文件不存在则不创建新文件&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;-d&lt;/code&gt; 后面可以接欲修改的时间而不用目前的日期，也可以使用&lt;code&gt;--date=&quot;日期或时间&quot;&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;-m&lt;/code&gt; 仅修改mtime&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;-t&lt;/code&gt; 后面可以接欲修改的时间而不用目前的时间，格式为[YYMMDDhhmm]&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;
+[terry@laptop ~]$ touch -d &quot;2 days ago&quot; bashrc #将bashrc的日期调整为两天前
+[terry@laptop ~]$ touch -t 0809151314 bashrc #将bashrc的日期改为2008/09/15 13:14
+&lt;/pre&gt;
+
+&lt;h3 id=&quot;umask-&quot;&gt;&lt;strong&gt;umask&lt;/strong&gt; 文件默认权限&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;显示的是需要减掉的权限&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code&gt;[terry@laptop ~]# umask
+0022	#与一般权限有关的是后面三个数字
+[terry@laptop ~]# umask -S # -s (Symbolic)
+u=rwx,g=rx,o=rx
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;新建文件时：（-rw-rw-rw-） - （—–w–w-） =» -rw-r–r–&lt;/p&gt;
+
+&lt;p&gt;新建目录时：（drwxrwxrwx） - （d—-w–w-） =» drwxr-xr-x&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[terry@laptop ~]$ umask 002 #设置umask的值为002
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;chattr-&quot;&gt;&lt;strong&gt;chattr&lt;/strong&gt; 设置文件的隐藏属性&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;chattr [+-=] [ASacdistu] 文件或目录名称&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;+&lt;/code&gt; 增加某一个特殊参数，其他原本存在参数则不动&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;-&lt;/code&gt; 删除某一个特殊参数，其他原本存在参数则不动&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;=&lt;/code&gt; 仅有后面接的参数&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;A&lt;/code&gt; 当设置了这个属性时，若你有访问此文件（或目录）时，他的访问时间atime将不会被修改，可避免I/O较慢的机器过度访问磁盘。这对速度较慢的计算机有帮助&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;S&lt;/code&gt; 一般文件是异步写入磁盘的，如果加上S这个属性时，当你进行任何文件的修改，该改动会“同步”写入磁盘中&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;a&lt;/code&gt; &lt;u&gt;当设置a后，这个文件将只能增加数据，而不能删除也不能修改数据，只有root才能设置这个属性&lt;/u&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;c&lt;/code&gt; 这个属性设置之后，将会自动将此文件压缩，在读取的时候将会自动解压缩，但是在存储的时候，将会先进性压缩后再存储（对大文件有用哟）&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;d&lt;/code&gt; 当dump程序被执行的时候，设置d属性将可使该文件（或目录）不会被dump备份&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;i&lt;/code&gt; &lt;u&gt;鸟哥说很厉害哟，它可以让一个文件“不能被删除、改名、设置连接，无法写入或添加数据”，对于系统安全性有相当大的帮助。只有root能设置此属性&lt;/u&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;s&lt;/code&gt; 当文件设置了s属性时，如果这个文件被删除，它将会被完全从这个硬盘空间中删除&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;u&lt;/code&gt; 与s相反，当使用u来配置文件时，如果该文件被删除了，则数据内容其实还存在磁盘中，可以使用来找回该文件&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;lsattr-&quot;&gt;&lt;strong&gt;lsattr&lt;/strong&gt; 显示文件隐藏属性&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;lsattr&lt;/strong&gt; [-adR] 文件或目录&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;-a&lt;/code&gt; 将隐藏文件的属性也秀出来&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;-d&lt;/code&gt; 如果接的是目录，仅列出目录本身的属性而非目录内的文件名&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;-R&lt;/code&gt; 连同子目录的数据也一并列出来&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;suid-sgid-sbit&quot;&gt;文件特殊权限：&lt;strong&gt;SUID SGID SBIT&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;-rw&lt;code&gt;x&lt;/code&gt;r-&lt;code&gt;x&lt;/code&gt;r-&lt;code&gt;x&lt;/code&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;SetUID&lt;/strong&gt; （&lt;code&gt;s&lt;/code&gt;标志在&lt;strong&gt;文件所有者&lt;/strong&gt;的&lt;code&gt;x&lt;/code&gt;项目为SUID）&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;SUID权限仅对二进制程序（binary program）有效&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;执行者对于该程序需要具有x的可执行权限&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;本权限仅在执行该程序的过程中（run-time）有效&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;执行者将具有该程序所有者（owner）的权限&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;SUID仅可用在二进制程序上，不能够用在shell script上面&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;SetGID&lt;/strong&gt; （&lt;code&gt;s&lt;/code&gt;标志在&lt;strong&gt;用户组&lt;/strong&gt;的&lt;code&gt;x&lt;/code&gt;项目为SGID）&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;对文件来说：&lt;/p&gt;
+
+        &lt;ul&gt;
+          &lt;li&gt;SGID对二进制程序有用&lt;/li&gt;
+          &lt;li&gt;程序执行者对于该程序来说，需具备x的权限&lt;/li&gt;
+          &lt;li&gt;执行者在执行的过程中还会获得该程序用户组的支持&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;对于目录来说：&lt;/p&gt;
+
+        &lt;ul&gt;
+          &lt;li&gt;用户若对于此目录具有r与x的权限时，该用户能够进入此目录&lt;/li&gt;
+          &lt;li&gt;用户在此目录下的有效用户组（effective group）将会变成该目录的用户组&lt;/li&gt;
+          &lt;li&gt;若用户在此目录下具有w的权限（可以新建文件），则用户所创建的新文件的用户组与此目录的用户组相同&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;SBIT&lt;/strong&gt; (Sticky Bit)&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;只针对目录有效&lt;/li&gt;
+      &lt;li&gt;当用户对于此目录具有w，x权限（可能是属于用户组或者其他人），即具有写入的权限时，当用户在该目录下创建文件或目录时，仅有自己与root才有权利删除该文件（或目录）（也就是说在group这个组里的人只能各自管理自己所创建的文件或文件夹）&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;SUID/SGID/SBIT 权限设置&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;4 为SUID&lt;/li&gt;
+      &lt;li&gt;2 为SGID&lt;/li&gt;
+      &lt;li&gt;1 为SBIT&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;
+[terry@laptop ~]# chmod 4755 filename #将一个文件权限改为“-rwsr-xr-x”
+[terry@laptop ~]# chmod u=rwxs, go=rx filename #或者是这样
+# SUID: u+s
+# SGID: g+s
+# SBIT: o+t
+
+#在当一个文件没有x的权限时，在相应的位置上，s和t会以大写“S和T”的样子出现
+&lt;/pre&gt;
+
+&lt;h3 id=&quot;file-&quot;&gt;&lt;strong&gt;file&lt;/strong&gt; 查看文件类型&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;file&lt;/strong&gt; filename&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;which-&quot;&gt;&lt;strong&gt;which&lt;/strong&gt; 脚本文件名的查询&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;which&lt;/strong&gt; [-a] command&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code&gt;-a&lt;/code&gt; 将所有由PATH目录中可以找到的命令均列出，而不只第一个被找到的命令名称&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;whereis--&quot;&gt;&lt;strong&gt;whereis&lt;/strong&gt; 文件名的查找 寻找特定文件&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;whereis&lt;/strong&gt; [-bmsu] 文件或目录名&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;-b&lt;/code&gt; 只找二进制格式的文件&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;-m&lt;/code&gt; 只找在说明文件manual路径下的文件&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;-s&lt;/code&gt; 只找source文件&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;-u&lt;/code&gt; 查找不在上述三个选项当中的其他特殊文件&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;locate-&quot;&gt;&lt;strong&gt;locate&lt;/strong&gt; 文件名的查找&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;locate&lt;/strong&gt; [-ir] keyword&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;-i&lt;/code&gt; 忽略大小写的差异&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code&gt;-r&lt;/code&gt; 后面可接正则表达式的显示方式&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;locate寻找的数据是由&lt;strong&gt;已创建的数据库/var/lib/mlocate&lt;/strong&gt;里面的数据所查找的
+可以用&lt;code&gt;updatedb&lt;/code&gt;来更新数据库&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;update&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;根据/etc/updatedb.conf的设置去查找系统硬盘内的文件名，并更新/var/lib/mlocate内的数据文件&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;locate&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;根据/var/lib/mlocate内的数据库记载，找出用户输入的关键字文件名&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;find-&quot;&gt;&lt;strong&gt;find&lt;/strong&gt; 文件名的查找&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;find&lt;/strong&gt; [PATH] [option] [action]&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;与时间有关的参数&lt;/strong&gt; 共有-atime，-ctime，-mtime，下面以-mtime说明&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;code&gt;-mtime n&lt;/code&gt; n为数字，意义为在n天之前的“一天之内”被更改过的文件&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;code&gt;-mtime +n&lt;/code&gt; 列出在n天之前（不含n天本身）被更改过的文件名&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;code&gt;-mtime -n&lt;/code&gt; 列出在n天之内（含n天本身）被更改过的文件名&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;code&gt;-newer file&lt;/code&gt; file为一个存在的文件，列出比file还要新的文件名&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;
+[terry@laptop ~]$ find / -mtime 0 #将过去系统上24小时内有改动的文件列出
+
+[terry@laptop ~]$ find /etc -newer /etc/passwd #寻找/etc下面的文件，如果文件日期比/etc/passwd新就列出，-newer用在分辨两个文件之间的新旧关系是很有用的！
+
+[terry@laptop ~]$ find /var -mtime -4 #找出“4天内被改动过的文件名”
+[terry@laptop ~]$ find /var -mtime 4 #“4天前的那一天”
+&lt;/pre&gt;
+
+&lt;p&gt;+4代表大于等于5天前的文件名&lt;/p&gt;
+
+&lt;p&gt;-4代表小于等于4天内的文件名&lt;/p&gt;
+
+&lt;p&gt;4则是代表4~5那一天的文件名&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;与用户或用户组名有关的参数&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;code&gt;-uid n&lt;/code&gt; n为数字，这个数字是用户的账号ID，即UID，它是记录在/etc/passwd里面与账号名称对应的数字&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;code&gt;-gid n&lt;/code&gt; n为数字，这个数字是用户组名的ID，即GID，它是记录在/etc/group中的&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;code&gt;-user name&lt;/code&gt; name为账户名称，例如terry&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;code&gt;group name&lt;/code&gt; name为用户组名，例如users&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;code&gt;-nouser&lt;/code&gt; 寻找文件的所有者不存在于/etc/passwd中的人&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;code&gt;-nogroup&lt;/code&gt; 寻找文件的所有用户组不存在于/etc/group中的文件&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;
+[terry@laptop ~]$ find / -nouser #查找系统中不属于任何人的文件
+&lt;/pre&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;与文件权限及名称有关的参数&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;code&gt;-name filename&lt;/code&gt; 查找文件名为filename的文件&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;code&gt;-size [+-]SIZE&lt;/code&gt; 查找比SIZE还要大（+）或小（-）的文件，这个SIZE的规格有：&lt;code&gt;c 代表byte&lt;/code&gt;，&lt;code&gt;k 代表1024byete&lt;/code&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;code&gt;-type TYPE&lt;/code&gt; 查找文件的类型为TYPE的，类型主要有：一般正规文件（f）、设备文件（b，c）、目录（d）、连接文件（l）、socket（s）及FIFO（p）等属性&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;code&gt;-perm mode&lt;/code&gt; 查找文件权限“刚好等于”mode的文件，这个mode为类似chmod的属性&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;code&gt;perm -mode&lt;/code&gt; 查找文件权限“必须要全部包括mode的权限”的文件&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;code&gt;perm +mode&lt;/code&gt; 查找文件权限“包含任一mode的权限”的文件&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;
+[terry@laptop ~]$ find / -name passwd #找出文件名为passwd的这个文件
+[terry@laptop ~]$ find / -perm +7000 #找出文件当中含有SGID或SUID或SBIT的属性
+&lt;/pre&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;find会自己查找子目录&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;其他可进行的操作&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;code&gt;-exec command&lt;/code&gt; command为其他命令，-exec后面可再接其他的命令来处理查找到的结果&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;code&gt;-print&lt;/code&gt; 将结果打印到屏幕上，它是默认操作&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;
+[terry@laptop ~]$ find / -perm +7000 -exec ls -l {} \;
+#将找到的文件使用ls -l列出来，-exec后面的ls -l就是额外的命令，命令不支持命令别名。{} 代表“由find找到的内容”，因为 ; 在bash环境下有特殊意义，因此要用反斜杠来转义
+
+[terry@laptop ~]$ find /etc -name &#39;*httpd*&#39; #找出/etc下，文件名包含httpd的文件
+&lt;/pre&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Reference:《鸟哥的Linux私房菜》第三版&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Thu, 13 Nov 2014 00:00:00 +0800</pubDate>
+        <link>http://turbochen.com/linux/notes/2014/11/13/linux-vbird.html</link>
+        <guid isPermaLink="true">http://turbochen.com/linux/notes/2014/11/13/linux-vbird.html</guid>
+        
+        <category>linux</category>
+        
+        <category>command</category>
+        
+        <category>centos</category>
+        
+        <category>vbird</category>
+        
+        <category>notebook</category>
+        
+        
+        <category>linux</category>
+        
+        <category>notes</category>
+        
+      </item>
+    
+  </channel>
+</rss>

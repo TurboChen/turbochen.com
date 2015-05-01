@@ -1,0 +1,1065 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>鸟哥的Linux私房菜（笔记）</title>
+  <meta name="description" content="第七章 Linux文件与目录管理">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://turbochen.com/linux/notes/2014/11/13/linux-vbird.html">
+  <link rel="alternate" type="application/rss+xml" title="Turbo Chen" href="http://turbochen.com/feed.xml" />
+  <link rel="shortcut icon" href="/site-mini-icon-16x16.gif">
+  <link rel="stylesheet" href="/css/pygments.css">
+  
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <!-- <a class="site-title" href="/">Turbo Chen</a> -->
+    
+    <a class="site-title" href="/">
+
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 380 150" enable-background="new 0 0 380 150" xml:space="preserve">
+<rect x="16.6" y="104" transform="matrix(0.9992 -4.041747e-002 4.041747e-002 0.9992 -4.2315 7.9837)" fill="#FDF38B" width="357.4" height="9.4"/>
+<g>
+	<path fill="#010101" d="M17.2,50.5c-2.2,0-3.9-0.6-5-1.8c-1.2-1.2-1.8-2.7-1.8-4.5c0-0.4,0.1-1,0.2-1.6c0.1-0.6,0.3-1.1,0.5-1.6
+		c0.7,0.2,1.8,0.3,3.2,0.4c1.4,0.1,3,0.1,4.9,0.1c2.8,0,5.9,0,9.5,0s6.9-0.2,10.1-0.5c3.2-0.3,6.1-0.6,8.5-0.9s4-0.4,4.7-0.4
+		c2,0,3.5,0.8,4.4,2.3c0.9,1.5,1.6,3.5,2,6c-1.4-0.2-2.8-0.2-4.2-0.2c-1.4,0-2.6,0-3.6,0c-1.7,0-3.5,0-5.3,0c-1.8,0-3.6,0.1-5.4,0.3
+		c-0.8,1.6-1.6,3.5-2.5,5.6c-0.9,2.2-1.8,4.4-2.7,6.8c-0.9,2.4-1.8,4.7-2.6,7c-0.8,2.3-1.5,4.4-2.1,6.3c-1.2,3.6-2.3,6.9-3.2,10
+		c-0.9,3.1-1.7,5.9-2.4,8.6c-0.7,2.7-1.3,5.2-1.8,7.6c-0.5,2.4-0.9,4.8-1.3,7.1c-3.7-0.5-6.7-2.8-9.2-6.9c0.4-1.7,1-3.5,1.6-5.5
+		c0.6-2,1.4-4.3,2.2-6.8c0.8-2.5,1.8-5.4,3-8.6c1.1-3.2,2.5-6.9,3.9-11c0.5-1.5,1.1-3.1,1.7-4.8c0.6-1.7,1.2-3.3,1.8-5
+		c0.6-1.6,1.1-3.2,1.6-4.7c0.5-1.5,0.9-2.9,1.2-4.2c-2.3,0.3-4.5,0.5-6.5,0.7C20.6,50.5,18.8,50.5,17.2,50.5z"/>
+	<path fill="#010101" d="M61.8,98.3c-1-0.9-1.7-2-2.1-3.3c-0.4-1.3-0.5-2.4-0.5-3.4c0-1.1,0.1-2.1,0.4-2.9c-0.2,0-0.7,0.4-1.5,1.3
+		c-0.8,0.9-1.6,1.9-2.5,3.1c-0.9,1.2-1.8,2.4-2.7,3.5c-0.9,1.1-1.5,2-2,2.5c-0.7,0.8-1.4,1.4-2,1.8c-0.6,0.4-1.1,0.7-1.5,0.7
+		c-0.9,0-1.8-0.2-2.7-0.5c-1-0.3-1.9-0.7-2.7-1.3c-0.8-0.5-1.6-1.2-2.2-2c-0.6-0.8-1.1-1.6-1.3-2.6c0-1.5,0-2.8,0.1-3.8
+		c0.1-1,0.3-2,0.5-3.2c0.5-2.1,1.2-4.4,2.2-7c1-2.6,2.1-5.2,3.3-7.7c1.3-2.5,2.7-4.9,4.2-7.1c1.6-2.2,3.2-3.9,5-5.2
+		c0.5,0,1.1,0,1.7,0.1c0.7,0.1,1.3,0.2,2,0.5c0.7,0.2,1.3,0.5,2,0.8c0.6,0.3,1.2,0.7,1.6,1.2c-0.5,0.5-1.7,2.4-3.7,5.5
+		c-2,3.1-4.2,7.6-6.7,13.4c-0.3,0.6-0.6,1.5-1,2.6c-0.4,1.1-0.8,2.3-1.1,3.6c-0.4,1.3-0.7,2.5-0.9,3.7s-0.4,2.2-0.4,2.9
+		c0,0.4,0.1,0.8,0.2,1c0.1,0.2,0.3,0.4,0.4,0.5c0.8-0.3,1.9-1.2,3.1-2.7c1.3-1.5,3-3.7,5.2-6.8c0.5-0.8,1.2-1.6,1.9-2.6
+		c0.7-1,1.5-2,2.3-3.2c0.8-1.1,1.5-2.3,2.2-3.5c0.7-1.2,1.2-2.4,1.7-3.6c0.2-0.7,0.5-1.4,0.9-2.3c0.4-0.9,0.8-1.8,1.3-2.8
+		c0.5-1,1.1-2,1.8-3c0.7-1,1.5-2,2.4-2.8c0.7,0,1.5,0.1,2.3,0.2s1.6,0.4,2.3,0.6c0.7,0.2,1.4,0.5,1.9,0.8c0.5,0.3,1,0.6,1.2,0.9
+		c-1,2.4-2.1,4.8-3.3,7.1c-1.2,2.3-2.3,4.7-3.4,6.9c-1,2.3-1.9,4.5-2.6,6.8c-0.7,2.2-1.1,4.4-1.1,6.5c0,1.1,0.1,2.1,0.3,3
+		c0.2,0.8,0.4,1.6,0.6,2.1c0.2,0.6,0.4,1.1,0.6,1.4c0.2,0.4,0.3,0.7,0.3,1c0,0.1-0.1,0.1-0.2,0.2c-0.1,0.1-0.1,0.1-0.2,0.1
+		c-0.4,0-0.9-0.1-1.5-0.2c-0.6-0.2-1.3-0.4-2-0.7c-0.7-0.3-1.5-0.6-2.2-1C63.1,99.2,62.5,98.8,61.8,98.3z"/>
+	<path fill="#010101" d="M78,98.5c0.3-1.6,0.7-3.7,1.4-6.3c0.7-2.6,1.5-5.3,2.4-8.3c0.9-2.9,1.9-5.9,2.9-8.8c1-2.9,2-5.6,3-7.9
+		c0.7-1.7,1.3-3,1.9-4c0.5-1,1.1-1.8,1.8-2.4c0.8,0.1,1.6,0.3,2.4,0.6c0.8,0.3,1.6,0.6,2.4,1c0.8,0.4,1.4,0.8,2,1.2
+		c0.6,0.4,1.1,0.8,1.4,1.2c-1.5,1.7-2.8,3.7-3.9,6c-1.1,2.2-2.3,5.1-3.4,8.6c2.9-2.6,5.6-5.1,7.8-7.5c2.3-2.4,4.4-5.1,6.3-8
+		c0.3-0.3,0.9-0.4,1.7-0.4c0.8,0,1.5,0.1,2.2,0.4c0.7,0.2,1.2,0.6,1.5,1c-1,2.6-1.5,5.2-1.5,7.8c0,2.4,0.4,4.2,1.1,5.4
+		c-0.1,0.3-0.4,1-1.1,1.9c-0.7,0.9-1.4,1.8-2.3,2.6c-1.5-0.8-2.8-1.8-3.9-3.2c-1.1-1.3-2-2.8-2.5-4.4c-2.6,1.8-4.7,3.6-6.5,5.3
+		c-1.8,1.7-3.3,3.6-4.6,5.7c-1.3,2.1-2.4,4.5-3.3,7.2c-0.9,2.7-1.8,6-2.6,9.7c-0.5-0.1-1.1-0.2-1.8-0.5c-0.7-0.3-1.4-0.7-2-1.1
+		c-0.7-0.4-1.3-0.9-1.8-1.4C78.5,99.4,78.2,98.9,78,98.5z"/>
+	<path fill="#010101" d="M120.5,100.7c2.5-1.7,5-3.9,7.4-6.5c2.4-2.6,4.6-5.5,6.5-8.6c2-3.1,3.6-6.3,5-9.6c1.4-3.3,2.3-6.5,2.8-9.6
+		c0-0.7-0.4-1.1-1.1-1.3c-0.8,0-1.8,0.7-3.2,2c-1.3,1.3-2.8,3-4.4,5.1c-1.6,2.1-3.2,4.4-4.9,7c-1.7,2.6-3.2,5.1-4.5,7.7
+		c-1.4,2.5-2.5,4.9-3.5,7.1c-1,2.2-1.5,4-1.6,5.4c-0.5,0-1-0.5-1.4-1.6c-0.1-0.3-0.3-0.6-0.6-0.9c-0.3-0.3-0.7-0.7-1.3-1.1
+		c-0.3-0.2-0.5-0.5-0.8-0.8c-0.3-0.3-0.5-0.6-0.6-0.8c-0.2-0.4-0.3-1.1-0.3-2.1c0-3.2,0.4-6.8,1.2-10.9c0.8-4,1.9-8.2,3.2-12.4
+		c1.3-4.2,2.9-8.3,4.7-12.4c1.8-4.1,3.7-7.8,5.6-11.2c1.9-3.4,3.9-6.2,5.9-8.6c2-2.3,3.8-3.9,5.6-4.7c0.5,0.2,1.2,0.4,2,0.8
+		c0.8,0.4,1.5,0.8,2.3,1.3c0.8,0.5,1.5,1,2.2,1.5c0.7,0.5,1.2,0.9,1.5,1.3c-6,4.9-11.2,11.1-15.6,18.7c-4.4,7.6-8,16.6-10.8,27
+		c1.5-2.8,3.2-5.6,5.2-8.2c1.9-2.6,3.8-5,5.7-7c1.9-2,3.7-3.6,5.4-4.8c1.7-1.2,3.2-1.8,4.3-1.8c0.9,0.2,1.7,0.6,2.5,1.1
+		c0.8,0.5,1.6,1.2,2.2,2c0.7,0.8,1.2,1.6,1.6,2.5c0.4,0.9,0.7,1.8,0.8,2.8c-0.1,2.3-0.5,4.7-1.2,7.3c-0.7,2.6-1.7,5.1-2.9,7.7
+		c-1.2,2.5-2.6,4.9-4.2,7.2s-3.2,4.3-4.9,6c-1.7,1.7-3.4,3.1-5.2,4.1c-1.7,1-3.3,1.6-4.9,1.6c-0.7,0-1.3-0.1-2-0.2
+		c-0.7-0.1-1.3-0.3-1.9-0.6c-0.6-0.2-1-0.5-1.4-0.8C120.7,101.3,120.5,101,120.5,100.7z"/>
+	<path fill="#010101" d="M161.2,103c-3.1-0.3-5.6-1.7-7.4-4.1c-1.9-2.4-2.8-5.5-2.8-9.2c0-2.2,0.3-4.4,1-6.8
+		c0.7-2.3,1.6-4.6,2.8-6.8c1.2-2.2,2.6-4.3,4.3-6.3c1.6-2,3.4-3.7,5.3-5.1c3-2.2,5.8-3.4,8.4-3.4c1.7,0.9,3.5,2.9,5.2,5.8
+		c0.3,0,0.5,0,0.7,0c0.2,0,0.5,0,0.7,0c2.9,0,4.3,2.6,4.3,7.7c0,3.4-0.6,6.7-1.7,9.8c-1.1,3.1-2.7,5.9-4.7,8.4
+		c-2,2.5-4.4,4.6-7.1,6.3C167.5,101.1,164.5,102.3,161.2,103z M165.4,77.2c-0.9,1.3-1.8,2.6-2.6,4.1c-0.8,1.5-1.5,3-2.1,4.5
+		c-0.6,1.5-1.1,2.9-1.4,4.3c-0.3,1.4-0.5,2.6-0.5,3.7c0,1.3,0.2,2.6,0.7,3.8c0.4,1.2,0.9,1.9,1.5,2c2.5-0.5,4.7-1.6,6.8-3.1
+		c2-1.5,3.8-3.4,5.3-5.6c1.5-2.2,2.7-4.8,3.5-7.6c0.8-2.8,1.3-5.9,1.3-9.1c0-1.4-0.1-2.5-0.2-3.4c-0.2-0.8-0.4-1.5-0.8-2.1
+		c-2.4,0.7-4.5,1.9-6.4,3.4C168.4,73.8,166.8,75.5,165.4,77.2z"/>
+	<path fill="#010101" d="M190,84.2c0-3.8,0.5-7.6,1.4-11.3s2.2-7.2,3.8-10.5c1.6-3.3,3.6-6.3,5.9-9.1c2.3-2.8,4.7-5.1,7.4-7.2
+		c2.7-2,5.6-3.6,8.6-4.7c3.1-1.1,6.2-1.7,9.4-1.7c3.8,0,6.7,0.8,8.8,2.4c2.1,1.6,3.2,3.8,3.2,6.6c0,1.1-0.2,2.2-0.4,3.4
+		c-0.3,1.1-0.7,2.3-1.3,3.4c-0.6,1.1-1.2,2.2-2,3.2c-0.8,1-1.6,1.9-2.5,2.7c-1.4-0.2-2.6-0.9-3.7-1.9c-1-1.1-1.7-2.3-2-3.7
+		c1.9-1.6,3.4-3.2,4.5-5c1.1-1.7,1.7-3.3,1.7-4.7c0-2.4-1.5-3.6-4.5-3.6c-1.3,0-2.6,0.3-3.9,0.8c-1.3,0.5-2.7,1.2-4.1,2.2
+		c-1.4,0.9-2.7,2-4,3.4c-1.3,1.3-2.5,2.8-3.6,4.3c-7.6,10.9-11.4,22.1-11.4,33.5c0,4,0.6,7.3,1.9,9.7c1.3,2.5,2.9,3.9,5,4.3
+		c2.3-0.5,5.3-2,8.9-4.5c3.6-2.5,7.5-5.6,11.8-9.6c0.5,0.5,0.9,1.1,1,1.7c-1.6,2.1-3.2,4-4.9,5.9c-1.7,1.9-3.4,3.6-5,5.2
+		c-1.7,1.6-3.3,3-4.9,4.2c-1.6,1.2-3.1,2.1-4.5,2.8c-6.8,0-11.9-1.9-15.4-5.7C191.8,97,190,91.5,190,84.2z"/>
+	<path fill="#010101" d="M235.2,98.7c0-1.9,0.2-4.2,0.6-6.8c0.4-2.6,0.9-5.4,1.7-8.3c0.7-2.9,1.6-6,2.6-9.2c1-3.2,2.1-6.4,3.4-9.7
+		c1.1-2.9,2.4-5.8,3.8-8.8c1.4-2.9,3-5.8,4.7-8.7c1.7-2.8,3.4-5.5,5.3-8.1c1.8-2.6,3.7-4.9,5.5-7c0.9,0,1.8,0.1,2.8,0.3
+		c1,0.2,2,0.5,2.9,0.9c1,0.4,1.8,0.8,2.6,1.3c0.8,0.5,1.4,1,1.9,1.5c-4.1,4.2-7.8,8.4-11,12.7c-3.3,4.3-5.9,8.3-7.8,12.1
+		c-1,2.1-2,4-2.8,5.8c-0.8,1.8-1.6,3.6-2.3,5.4c-0.7,1.8-1.4,3.5-1.9,5.3c-0.6,1.8-1.1,3.6-1.6,5.6C256.1,69.7,263.9,63,268.9,63
+		c1.4,0,2.9,0.5,4.6,1.4c1.6,0.9,3.1,2.2,4.3,3.8c-1.7,1.9-3.4,4.1-5.2,6.7c-1.8,2.6-3.5,5.3-4.9,7.9c-1.5,2.6-2.7,5.1-3.7,7.4
+		c-1,2.3-1.4,3.9-1.4,5c0,0.5,0.1,0.9,0.2,1.1c0.2,0.2,0.5,0.3,1.1,0.3c0.8,0,1.5-0.1,2-0.3c0.5-0.2,0.8-0.3,0.9-0.3
+		c0.3,0.4,0.4,0.7,0.5,0.9c0.1,0.2,0.1,0.3,0.1,0.4c0,0.2-0.3,0.5-1,0.9c-0.7,0.4-1.4,0.8-2.3,1.2c-0.9,0.4-1.8,0.8-2.7,1.1
+		c-0.9,0.3-1.5,0.5-2,0.5c-0.5,0-1.1-0.2-1.6-0.4c-0.5-0.3-1-0.7-1.4-1.2c-0.4-0.5-0.7-1-1-1.6c-0.2-0.6-0.4-1.2-0.4-1.9
+		c0-0.8,0.2-2,0.7-3.6s1.1-3.5,1.9-5.6c0.8-2.2,1.8-4.5,2.9-7.1c1.1-2.6,2.4-5.2,3.7-7.9c0-0.2-0.1-0.3-0.3-0.3
+		c-0.2,0-0.6,0.2-1.3,0.7c-0.7,0.4-1.3,0.9-1.9,1.3c-2,1.5-3.9,3.3-5.9,5.4c-2,2.2-3.9,4.5-5.8,7.1c-1.9,2.6-3.7,5.3-5.3,8.1
+		c-1.7,2.9-3.1,5.7-4.3,8.6c-0.2,0.4-0.4,0.7-0.7,1.1c-0.3,0.3-0.6,0.5-0.8,0.5c-0.2,0-0.4-0.2-0.7-0.6c-0.3-0.4-0.6-0.9-0.8-1.4
+		c-0.2-0.6-0.5-1.2-0.7-1.8C235.3,99.7,235.2,99.2,235.2,98.7z"/>
+	<path fill="#010101" d="M306.9,66.3c-0.2,3.4-0.8,6.3-1.8,8.7c-1,2.4-2.4,4.6-4.2,6.4c-1.8,1.8-4.1,3.5-6.7,5s-5.7,2.9-9.2,4.3
+		c0,0.3,0,0.7,0,1c0,0.4,0,0.7,0,1.1c0,0.7,0.1,1.4,0.2,2.2c0.1,0.8,0.3,1.5,0.6,2.1c0.3,0.7,0.7,1.2,1.1,1.6
+		c0.5,0.4,1.1,0.6,1.9,0.6c1.5,0,2.9-0.3,4.3-1c1.4-0.7,2.8-1.5,4.1-2.4c1.3-1,2.5-2,3.6-3.1c1.1-1.1,2.1-2.1,3-3.1
+		c0.5,0.5,1,1,1.4,1.4c-2.5,3.3-5.1,6-8.1,8.1c-2.9,2.2-5.7,3.5-8.3,4.1c-3.8-0.4-6.7-1.8-8.8-4.1c-2.1-2.3-3.2-5.1-3.2-8.4
+		c0-2.2,0.3-4.5,0.9-6.8c0.6-2.3,1.5-4.6,2.6-6.7c1.1-2.2,2.4-4.2,3.9-6.1c1.5-1.9,3.1-3.6,4.8-5c1.7-1.4,3.5-2.5,5.3-3.4
+		c1.8-0.8,3.6-1.2,5.4-1.2C302.4,61.9,304.7,63.5,306.9,66.3z M301.3,69c-1.5,0.2-3,0.8-4.6,1.8c-1.6,1-3.1,2.3-4.5,3.9
+		c-1.4,1.6-2.7,3.5-3.8,5.7c-1.1,2.2-2,4.5-2.7,7c4.4-2.2,8-4.9,10.9-8.1C299.5,76.2,301,72.7,301.3,69z"/>
+	<path fill="#010101" d="M323.9,60.4c1.4,0.4,2.8,1.4,4,2.9c1.3,1.5,2.2,3.2,2.8,5c-0.6,1.5-1.5,3.2-2.8,5.3
+		c-1.3,2.1-2.5,4.2-3.8,6.3c-1.3,2.2-2.4,4.2-3.4,6.1c-1,1.9-1.6,3.5-1.8,4.8c0.9-0.9,1.8-2,2.9-3.2c1.1-1.2,2.1-2.5,3.1-3.7
+		c1-1.2,2-2.3,2.8-3.4c0.9-1,1.6-1.8,2-2.3c1-1.1,2.3-2.4,3.7-3.8c1.4-1.4,2.9-2.8,4.5-4.1c1.6-1.3,3.1-2.4,4.7-3.3
+		c1.6-0.9,3-1.4,4.3-1.4c1.4,0,2.6,0.5,3.6,1.4c1,1,1.7,2,2.3,3c0,0.1-0.2,0.3-0.6,0.4c-0.4,0.2-1,0.7-1.8,1.6
+		c-0.8,1-1.6,2.3-2.6,4.1c-1,1.7-1.9,3.6-2.8,5.6c-0.9,2-1.7,4-2.3,6.1c-0.6,2.1-0.9,4-0.9,5.6c0,1.4,0.2,2.2,0.5,2.6
+		c0.4,0.4,0.9,0.6,1.5,0.6c0.6,0,1.2-0.1,1.9-0.4c0.7-0.3,1.2-0.4,1.6-0.4c0.2,0.1,0.4,0.3,0.5,0.7c0.1,0.4,0.2,0.7,0.2,0.9
+		c-0.4,0.4-1,0.8-1.6,1.1c-0.6,0.4-1.2,0.7-1.9,1.1c-0.7,0.3-1.3,0.6-1.9,0.8c-0.6,0.2-1.2,0.3-1.7,0.3c-1.6,0-2.9-0.2-3.9-0.7
+		c-1-0.5-1.8-1.1-2.4-1.8c-0.6-0.8-1-1.7-1.2-2.7c-0.2-1.1-0.3-2.2-0.3-3.4c0-0.7,0.1-1.4,0.2-2.2c0.1-0.8,0.3-1.8,0.7-2.9
+		c0.3-1.1,0.8-2.5,1.4-4c0.6-1.6,1.4-3.4,2.3-5.6c-0.1,0-0.8,0.4-2.2,1.1c-1.4,0.8-2.8,1.9-4.4,3.5c-2.6,2.5-4.9,4.9-6.9,7.3
+		c-2,2.4-4.1,5.1-6.3,8c-1.2,1.7-2.2,3.1-3.2,4.3c-0.9,1.2-1.7,2-2.3,2.3c-1.1-0.7-2-1.6-2.5-2.7c-0.5-1.2-1-2.4-1.2-3.6
+		c0-1,0.2-2.3,0.5-3.9c0.3-1.6,0.7-3.3,1.2-5.3c0.5-1.9,1.2-4,1.9-6.1c0.8-2.1,1.6-4.3,2.5-6.4c2.1-4.8,4-8.6,5.7-11.3
+		C322.4,62.1,323.5,60.7,323.9,60.4z"/>
+</g>
+</svg>
+
+    
+
+    </a>
+    
+    <nav class="site-nav">
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About</a>
+          
+        
+          
+          <a class="page-link" href="/albums/">Albums</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <a class="page-link" href="/words/">Words</a>
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">鸟哥的Linux私房菜（笔记）</h1>
+    <p class="post-meta">Nov 13, 2014 # linux, command, centos, vbird, and notebook</p>
+  </header>
+
+  <article class="post-content">
+    <h2 id="linux">第七章 Linux文件与目录管理</h2>
+
+<h3 id="pwd-print-work-directory"><strong>pwd</strong> （print work directory）显示目前所在的目录</h3>
+
+<ul>
+  <li><code>-P</code> 取得正确的目录名称，而不是以连接文件的路径来显示</li>
+</ul>
+
+<h3 id="cdchange-directory-"><strong>cd</strong>(change directory) 切换目录</h3>
+
+<ul>
+  <li><strong>~</strong> 表示用户的主文件夹，即<code>/home/username</code></li>
+  <li><strong>-</strong> 回到切换目录之前的目录，重复使用将会在两个目录间来回切换</li>
+</ul>
+
+<h3 id="mkdirmake-directory-"><strong>mkdir</strong>(make directory) 新建目录</h3>
+
+<ul>
+  <li><code>-m</code> 强制设置属性</li>
+</ul>
+
+<blockquote>
+  <p>若不使用<code>-m</code>则使用默认属性（默认属性可使用<code>umask</code>来查看）</p>
+</blockquote>
+
+<h3 id="rmdirremove-directory-"><strong>rmdir</strong>(remove directory) 移除目录</h3>
+
+<ul>
+  <li><code>-p</code> 连同上层的“空的”目录也一起删除</li>
+</ul>
+
+<blockquote>
+  <p>如果要将目录下的所有东西删除可以使用<code>rm -r &lt;directory&gt;</code></p>
+</blockquote>
+
+<h3 id="lslist-"><strong>ls</strong>(list) 查看文件与目录</h3>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>ls</strong> [-aAdfFhilnrRSt] directory</td>
+    </tr>
+    <tr>
+      <td><strong>ls</strong> [–color={never,auto,always}] directory</td>
+    </tr>
+    <tr>
+      <td><strong>ls</strong> [–full-time] directory</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li>
+    <p><code>-a</code> 全部的文件，连同隐藏文件</p>
+  </li>
+  <li>
+    <p><code>-d</code> 仅列出目录本身，不列出目录内的数据</p>
+  </li>
+  <li>
+    <p><code>-F</code> 根据文件、目录等信息给予附加数据结构，例如：<strong>*</strong> 代表可执行文件，<strong>/</strong> 代表目录，<strong>=</strong> 代表socket文件，<strong>|</strong> 代表FIFO文件</p>
+  </li>
+  <li>
+    <p><code>-l</code> 列出长数据串，包含文件的属性与权限等数据</p>
+  </li>
+  <li>
+    <p><code>-R</code> 连同子目录内容一起列出来</p>
+  </li>
+  <li>
+    <p><code>-S</code> 以文件容量大小排序</p>
+  </li>
+  <li>
+    <p><code>-t</code> 以时间排序</p>
+  </li>
+  <li>
+    <p><code>--full-time</code> 以完整时间模式（包含年、月、日、时、分）输出</p>
+  </li>
+  <li>
+    <p><code>--time={atime,ctime}</code> 输出访问时间或改变权限属性时间（ctime）而非内容更改时间（modification time）</p>
+  </li>
+</ul>
+
+<h3 id="cp-copy"><strong>cp</strong> （copy）复制</h3>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>cp</strong> [-adfilprsu] source destination</td>
+    </tr>
+    <tr>
+      <td><strong>cp</strong> [options] source1 source2 source3 … directory</td>
+    </tr>
+  </tbody>
+</table>
+
+<blockquote>
+  <p>在默认的条件中，cp的源文件与目的文件的权限是不同的，目的文件的所有者通常会是命令操作者本身</p>
+</blockquote>
+
+<blockquote>
+  <p>若源文件有两个以上，最后一个目的的目录必须是“目录”才行</p>
+</blockquote>
+
+<ul>
+  <li>
+    <p><code>-a</code> <u>相当于`-pdr`的意思</u></p>
+  </li>
+  <li>
+    <p><code>-d</code> 若源文件为连接文件的属性（link file），则复制连接文件属性而非文件本身</p>
+  </li>
+  <li>
+    <p><code>-f</code> 为强制（force）的意思，若目标文件已经存在且无法开启，则删除后再尝试一次</p>
+  </li>
+  <li>
+    <p><code>-i</code> <u>若目标文件（destination）已经存在时，在覆盖时会询问操作的进行</u></p>
+  </li>
+  <li>
+    <p><code>-l</code> 进行硬连接（hard link）的连接文件创建，而非复制文件本身</p>
+  </li>
+  <li>
+    <p><code>-p</code> 连同文件的属性一起复制过去，而非使用默认属性（备份常用）</p>
+  </li>
+  <li>
+    <p><code>-r</code> <u>递归持续复制</u></p>
+  </li>
+  <li>
+    <p><code>-s</code> 复制成为符号连接文件（symbolic link），即“快捷方式”文件</p>
+  </li>
+  <li>
+    <p><code>-u</code> 若destination比source旧才更新destination</p>
+  </li>
+</ul>
+
+<h3 id="rm-remove"><strong>rm</strong> （remove）移除文件或目录</h3>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>rm</strong> [-fir] 文件或目录</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li>
+    <p><code>-f</code> 就是force的意思，忽略不存在的文件，不会出现警告信息</p>
+  </li>
+  <li>
+    <p><code>-i</code> 互动模式，在删除前会询问用户是否操作</p>
+  </li>
+  <li>
+    <p><code>-r</code> 递归删除，最常用在目录的删除。<u>这是非常危险的参数！！！</u></p>
+
+    <p>[terry@laptop ~]$ rm ./-text- #删除一个带有 - 开头的文件，因为 - 是参数</p>
+  </li>
+</ul>
+
+<h3 id="mv-move"><strong>mv</strong> （move）移动文件与目录，或更名</h3>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>mv</strong> [-fiu] source destination</td>
+    </tr>
+    <tr>
+      <td><strong>mv</strong> [options] source1 source2 source3 … directory</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li>
+    <p><code>-f</code> 就是force的意思，忽略不存在的文件，不会出现警告信息</p>
+  </li>
+  <li>
+    <p><code>-i</code> 若目标文件（destination）存在时，就会询问是否覆盖</p>
+  </li>
+  <li>
+    <p><code>-u</code> 若目标文件已经存在，且source比较新，才会更新（update）</p>
+  </li>
+</ul>
+
+<blockquote>
+  <p>如果有多个源文件或目录，则最后一个目标文件一定是“目录”</p>
+</blockquote>
+
+<h3 id="section">取得路径的文件名与目录名称</h3>
+
+<pre><code>[terry@laptop ~]$ basename /etc/sysconfig/network
+network
+[terry@laptop ~]$ dirname /etc/sysconfig/network
+/etc/sysconfig
+</code></pre>
+
+<h3 id="cat-concatenate"><strong>cat</strong> （concatenate）直接查看文件内容</h3>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>cat</strong> [-AbEnTv]</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li>
+    <p><code>-A</code> 相当于<code>-vET</code>的整合参数，可列出一些特殊字符，而不是空白而已</p>
+  </li>
+  <li>
+    <p><code>-b</code> 列出行号，仅针对非空白做行号显示，空白行不标行号</p>
+  </li>
+  <li>
+    <p><code>-E</code> 将结尾的断行字符$显示出来</p>
+  </li>
+  <li>
+    <p><code>-n</code> <u>打印出行号，连同空白行</u></p>
+  </li>
+  <li>
+    <p><code>-T</code> 将<strong>[Tab]</strong>按键以<strong>^T</strong>显示出来</p>
+  </li>
+  <li>
+    <p><code>-v</code> 列出一些看不出来的特殊字符</p>
+  </li>
+</ul>
+
+<h3 id="tac-"><strong>tac</strong> 反向列式</h3>
+
+<blockquote>
+  <p>由最后一行到第一行反向在屏幕上显示出来（和cat相反）</p>
+</blockquote>
+
+<h3 id="nl-"><strong>nl</strong> 添加行号打印</h3>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>nl</strong> [-bnw]</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li>
+    <p><code>-b</code> 指定行号指定的方式，主要有两种</p>
+
+    <ul>
+      <li>
+        <p><code>-b -a</code> 表示不论是否为空行，也同样列出行号（类似 <code>cat -n</code> ）</p>
+      </li>
+      <li>
+        <p><code>-b -t</code> 如果有空行，空的那一行不要列出行号（默认值）</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><code>-n</code> 列出行号表示的方法，主要有三种</p>
+
+    <ul>
+      <li>
+        <p><code>-n ln</code> 行号在屏幕的最左方显示</p>
+      </li>
+      <li>
+        <p><code>-n rn</code> 行号在自己字段的最右方显示，且不加0</p>
+      </li>
+      <li>
+        <p><code>-n rz</code> 行号在自己字段的最右方显示，且加0</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><code>-w</code> 行号字段占用的位数</p>
+
+    <p>[terry@laptop ~]$ nl -b a -n rz /etc/issue #默认字段是6位数
+  000001	\S
+  000002	Kernel \r on an \m
+  000003
+  [terry@laptop ~]$ nl -b a -n rz -w 3 /etc/issue #改为显示三位数
+  001	\S
+  002	Kernel \r on an \m
+  003</p>
+  </li>
+</ul>
+
+<h3 id="more-"><strong>more</strong> 翻页查看</h3>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>more</strong> directory</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li>
+    <p><code>空格键（Space）</code> 代表向下翻一页</p>
+  </li>
+  <li>
+    <p><code>Enter</code> 代表向下滚动一行</p>
+  </li>
+  <li>
+    <p><code>/字符串</code> 代表在这个显示的内容当中，向下查询“字符串”这个关键字</p>
+  </li>
+  <li>
+    <p><code>:f</code> 立即显示出文件名以及目前显示的行数</p>
+  </li>
+  <li>
+    <p><code>q</code> 代表立刻离开more，就是退出的意思</p>
+  </li>
+  <li>
+    <p><code>b</code> 或 <code>[Ctrl+b]</code> 代表往回翻页，只对文件有用，对管道无用</p>
+  </li>
+</ul>
+
+<h3 id="less-"><strong>less</strong> 翻页查看</h3>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>less</strong> directory</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li><code>空格键（Space）</code> 向下翻动一页</li>
+  <li><code>PageDown</code> 向下翻动一页</li>
+  <li><code>PageUp</code> 向上翻动一页</li>
+  <li><code>/字符串</code> 向下查询“字符串”</li>
+  <li><code>?字符串</code> 向上查询“字符串”</li>
+  <li><code>n</code> 重复前一个查询</li>
+  <li><code>N</code> 反向重复前一个查询</li>
+  <li><code>q</code> 退出less程序</li>
+</ul>
+
+<h3 id="head-"><strong>head</strong> 取出前面几行</h3>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>head</strong> [-n number] file</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li><code>-n</code> 后面接数字，代表显示几行的意思</li>
+</ul>
+
+<h3 id="tail-"><strong>tail</strong> 取出后面几行</h3>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>tail</strong> [-n number][-f] file</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li><code>-n</code> 后面接数字，表示显示几行的意思</li>
+  <li><code>-f</code> 表示持续检测后面所接的文件名，要等到按下[Ctrl+C]才会结束tail的检测</li>
+</ul>
+
+<blockquote>
+  <p>默认情况下，显示最后的10行</p>
+</blockquote>
+
+<pre><code># 如果想要显示/etc/man.config中的地11到20行
+[terry@laptop ~]$ head -n 20 /etc/man.config |tail -n 10
+</code></pre>
+
+<h3 id="od-"><strong>od</strong> 非纯文本文件</h3>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>od</strong> [-t TYPE] file</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li>
+    <p><code>-t</code> 后面可以接各种“类型（TYPE）”的输出，例如</p>
+
+    <ul>
+      <li>
+        <p><code>a</code> 利用默认的字符来输出</p>
+      </li>
+      <li>
+        <p><code>c</code> 利用ASCII字符来输出</p>
+      </li>
+      <li>
+        <p><code>d[size]</code> 利用十进制（decimal）来输出数据，每个整数占用size bytes</p>
+      </li>
+      <li>
+        <p><code>f[size]</code> 利用浮点数（floating）来输出数据，每个数占用size bytes</p>
+      </li>
+      <li>
+        <p><code>o[size]</code> 利用八进制（octal）来输出数据，每个整数占用size bytes</p>
+      </li>
+      <li>
+        <p><code>x[size]</code> 利用十六进制（hexadecimal）来输出数据，每个整数占用size bytes</p>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="touch-"><strong>touch</strong> 修改文件时间或创建新文件</h3>
+
+<p><strong>modification time (mtime)</strong>：当该文件的“内容数据”更改时，就会更新这个时间。内容数据指的是文件的内容，而不是文件的属性或权限</p>
+
+<p><strong>status time (ctime)</strong>：当该文件的“状态”（status）改变时，就会更新这个时间，举例来说，像是权限与属性被更改了，都会更新这个时间</p>
+
+<p><strong>access time (atime)</strong>：当“该文件的内容被取用”时，就会更新这个读取时间（access），举例来说，我们使用cat去读取/etc/man.config，就会更新该文件的atime了</p>
+
+<blockquote>
+  <p>在默认情况下，ls显示出来的是该文件的mtime，也就是这个文件的内容上次被更改的时间</p>
+</blockquote>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>touch</strong> [acdmt] file</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li>
+    <p><code>-a</code> 仅修改访问时间</p>
+  </li>
+  <li>
+    <p><code>-c</code> 仅修改文件的时间，若该文件不存在则不创建新文件</p>
+  </li>
+  <li>
+    <p><code>-d</code> 后面可以接欲修改的时间而不用目前的日期，也可以使用<code>--date="日期或时间"</code></p>
+  </li>
+  <li>
+    <p><code>-m</code> 仅修改mtime</p>
+  </li>
+  <li>
+    <p><code>-t</code> 后面可以接欲修改的时间而不用目前的时间，格式为[YYMMDDhhmm]</p>
+  </li>
+</ul>
+
+<pre>
+[terry@laptop ~]$ touch -d "2 days ago" bashrc #将bashrc的日期调整为两天前
+[terry@laptop ~]$ touch -t 0809151314 bashrc #将bashrc的日期改为2008/09/15 13:14
+</pre>
+
+<h3 id="umask-"><strong>umask</strong> 文件默认权限</h3>
+
+<blockquote>
+  <p>显示的是需要减掉的权限</p>
+</blockquote>
+
+<pre><code>[terry@laptop ~]# umask
+0022	#与一般权限有关的是后面三个数字
+[terry@laptop ~]# umask -S # -s (Symbolic)
+u=rwx,g=rx,o=rx
+</code></pre>
+
+<p>新建文件时：（-rw-rw-rw-） - （—–w–w-） =» -rw-r–r–</p>
+
+<p>新建目录时：（drwxrwxrwx） - （d—-w–w-） =» drwxr-xr-x</p>
+
+<pre><code>[terry@laptop ~]$ umask 002 #设置umask的值为002
+</code></pre>
+
+<h3 id="chattr-"><strong>chattr</strong> 设置文件的隐藏属性</h3>
+
+<table>
+  <tbody>
+    <tr>
+      <td>chattr [+-=] [ASacdistu] 文件或目录名称</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li>
+    <p><code>+</code> 增加某一个特殊参数，其他原本存在参数则不动</p>
+  </li>
+  <li>
+    <p><code>-</code> 删除某一个特殊参数，其他原本存在参数则不动</p>
+  </li>
+  <li>
+    <p><code>=</code> 仅有后面接的参数</p>
+  </li>
+  <li>
+    <p><code>A</code> 当设置了这个属性时，若你有访问此文件（或目录）时，他的访问时间atime将不会被修改，可避免I/O较慢的机器过度访问磁盘。这对速度较慢的计算机有帮助</p>
+  </li>
+  <li>
+    <p><code>S</code> 一般文件是异步写入磁盘的，如果加上S这个属性时，当你进行任何文件的修改，该改动会“同步”写入磁盘中</p>
+  </li>
+  <li>
+    <p><code>a</code> <u>当设置a后，这个文件将只能增加数据，而不能删除也不能修改数据，只有root才能设置这个属性</u></p>
+  </li>
+  <li>
+    <p><code>c</code> 这个属性设置之后，将会自动将此文件压缩，在读取的时候将会自动解压缩，但是在存储的时候，将会先进性压缩后再存储（对大文件有用哟）</p>
+  </li>
+  <li>
+    <p><code>d</code> 当dump程序被执行的时候，设置d属性将可使该文件（或目录）不会被dump备份</p>
+  </li>
+  <li>
+    <p><code>i</code> <u>鸟哥说很厉害哟，它可以让一个文件“不能被删除、改名、设置连接，无法写入或添加数据”，对于系统安全性有相当大的帮助。只有root能设置此属性</u></p>
+  </li>
+  <li>
+    <p><code>s</code> 当文件设置了s属性时，如果这个文件被删除，它将会被完全从这个硬盘空间中删除</p>
+  </li>
+  <li>
+    <p><code>u</code> 与s相反，当使用u来配置文件时，如果该文件被删除了，则数据内容其实还存在磁盘中，可以使用来找回该文件</p>
+  </li>
+</ul>
+
+<h3 id="lsattr-"><strong>lsattr</strong> 显示文件隐藏属性</h3>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>lsattr</strong> [-adR] 文件或目录</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li>
+    <p><code>-a</code> 将隐藏文件的属性也秀出来</p>
+  </li>
+  <li>
+    <p><code>-d</code> 如果接的是目录，仅列出目录本身的属性而非目录内的文件名</p>
+  </li>
+  <li>
+    <p><code>-R</code> 连同子目录的数据也一并列出来</p>
+  </li>
+</ul>
+
+<h3 id="suid-sgid-sbit">文件特殊权限：<strong>SUID SGID SBIT</strong></h3>
+
+<p>-rw<code>x</code>r-<code>x</code>r-<code>x</code></p>
+
+<ul>
+  <li>
+    <p><strong>SetUID</strong> （<code>s</code>标志在<strong>文件所有者</strong>的<code>x</code>项目为SUID）</p>
+
+    <ul>
+      <li>
+        <p>SUID权限仅对二进制程序（binary program）有效</p>
+      </li>
+      <li>
+        <p>执行者对于该程序需要具有x的可执行权限</p>
+      </li>
+      <li>
+        <p>本权限仅在执行该程序的过程中（run-time）有效</p>
+      </li>
+      <li>
+        <p>执行者将具有该程序所有者（owner）的权限</p>
+      </li>
+      <li>
+        <p>SUID仅可用在二进制程序上，不能够用在shell script上面</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>SetGID</strong> （<code>s</code>标志在<strong>用户组</strong>的<code>x</code>项目为SGID）</p>
+
+    <ul>
+      <li>
+        <p>对文件来说：</p>
+
+        <ul>
+          <li>SGID对二进制程序有用</li>
+          <li>程序执行者对于该程序来说，需具备x的权限</li>
+          <li>执行者在执行的过程中还会获得该程序用户组的支持</li>
+        </ul>
+      </li>
+      <li>
+        <p>对于目录来说：</p>
+
+        <ul>
+          <li>用户若对于此目录具有r与x的权限时，该用户能够进入此目录</li>
+          <li>用户在此目录下的有效用户组（effective group）将会变成该目录的用户组</li>
+          <li>若用户在此目录下具有w的权限（可以新建文件），则用户所创建的新文件的用户组与此目录的用户组相同</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>SBIT</strong> (Sticky Bit)</p>
+
+    <ul>
+      <li>只针对目录有效</li>
+      <li>当用户对于此目录具有w，x权限（可能是属于用户组或者其他人），即具有写入的权限时，当用户在该目录下创建文件或目录时，仅有自己与root才有权利删除该文件（或目录）（也就是说在group这个组里的人只能各自管理自己所创建的文件或文件夹）</li>
+    </ul>
+  </li>
+  <li>
+    <p>SUID/SGID/SBIT 权限设置</p>
+
+    <ul>
+      <li>4 为SUID</li>
+      <li>2 为SGID</li>
+      <li>1 为SBIT</li>
+    </ul>
+  </li>
+</ul>
+
+<pre>
+[terry@laptop ~]# chmod 4755 filename #将一个文件权限改为“-rwsr-xr-x”
+[terry@laptop ~]# chmod u=rwxs, go=rx filename #或者是这样
+# SUID: u+s
+# SGID: g+s
+# SBIT: o+t
+
+#在当一个文件没有x的权限时，在相应的位置上，s和t会以大写“S和T”的样子出现
+</pre>
+
+<h3 id="file-"><strong>file</strong> 查看文件类型</h3>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>file</strong> filename</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="which-"><strong>which</strong> 脚本文件名的查询</h3>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>which</strong> [-a] command</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li><code>-a</code> 将所有由PATH目录中可以找到的命令均列出，而不只第一个被找到的命令名称</li>
+</ul>
+
+<h3 id="whereis--"><strong>whereis</strong> 文件名的查找 寻找特定文件</h3>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>whereis</strong> [-bmsu] 文件或目录名</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li>
+    <p><code>-b</code> 只找二进制格式的文件</p>
+  </li>
+  <li>
+    <p><code>-m</code> 只找在说明文件manual路径下的文件</p>
+  </li>
+  <li>
+    <p><code>-s</code> 只找source文件</p>
+  </li>
+  <li>
+    <p><code>-u</code> 查找不在上述三个选项当中的其他特殊文件</p>
+  </li>
+</ul>
+
+<h3 id="locate-"><strong>locate</strong> 文件名的查找</h3>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>locate</strong> [-ir] keyword</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li>
+    <p><code>-i</code> 忽略大小写的差异</p>
+  </li>
+  <li>
+    <p><code>-r</code> 后面可接正则表达式的显示方式</p>
+  </li>
+</ul>
+
+<blockquote>
+  <p>locate寻找的数据是由<strong>已创建的数据库/var/lib/mlocate</strong>里面的数据所查找的
+可以用<code>updatedb</code>来更新数据库</p>
+</blockquote>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>update</strong></td>
+      <td>根据/etc/updatedb.conf的设置去查找系统硬盘内的文件名，并更新/var/lib/mlocate内的数据文件</td>
+    </tr>
+    <tr>
+      <td><strong>locate</strong></td>
+      <td>根据/var/lib/mlocate内的数据库记载，找出用户输入的关键字文件名</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="find-"><strong>find</strong> 文件名的查找</h3>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>find</strong> [PATH] [option] [action]</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li>
+    <p><strong>与时间有关的参数</strong> 共有-atime，-ctime，-mtime，下面以-mtime说明</p>
+
+    <ul>
+      <li>
+        <p><code>-mtime n</code> n为数字，意义为在n天之前的“一天之内”被更改过的文件</p>
+      </li>
+      <li>
+        <p><code>-mtime +n</code> 列出在n天之前（不含n天本身）被更改过的文件名</p>
+      </li>
+      <li>
+        <p><code>-mtime -n</code> 列出在n天之内（含n天本身）被更改过的文件名</p>
+      </li>
+      <li>
+        <p><code>-newer file</code> file为一个存在的文件，列出比file还要新的文件名</p>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<pre>
+[terry@laptop ~]$ find / -mtime 0 #将过去系统上24小时内有改动的文件列出
+
+[terry@laptop ~]$ find /etc -newer /etc/passwd #寻找/etc下面的文件，如果文件日期比/etc/passwd新就列出，-newer用在分辨两个文件之间的新旧关系是很有用的！
+
+[terry@laptop ~]$ find /var -mtime -4 #找出“4天内被改动过的文件名”
+[terry@laptop ~]$ find /var -mtime 4 #“4天前的那一天”
+</pre>
+
+<p>+4代表大于等于5天前的文件名</p>
+
+<p>-4代表小于等于4天内的文件名</p>
+
+<p>4则是代表4~5那一天的文件名</p>
+
+<ul>
+  <li>
+    <p><strong>与用户或用户组名有关的参数</strong></p>
+
+    <ul>
+      <li>
+        <p><code>-uid n</code> n为数字，这个数字是用户的账号ID，即UID，它是记录在/etc/passwd里面与账号名称对应的数字</p>
+      </li>
+      <li>
+        <p><code>-gid n</code> n为数字，这个数字是用户组名的ID，即GID，它是记录在/etc/group中的</p>
+      </li>
+      <li>
+        <p><code>-user name</code> name为账户名称，例如terry</p>
+      </li>
+      <li>
+        <p><code>group name</code> name为用户组名，例如users</p>
+      </li>
+      <li>
+        <p><code>-nouser</code> 寻找文件的所有者不存在于/etc/passwd中的人</p>
+      </li>
+      <li>
+        <p><code>-nogroup</code> 寻找文件的所有用户组不存在于/etc/group中的文件</p>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<pre>
+[terry@laptop ~]$ find / -nouser #查找系统中不属于任何人的文件
+</pre>
+
+<ul>
+  <li>
+    <p><strong>与文件权限及名称有关的参数</strong></p>
+
+    <ul>
+      <li>
+        <p><code>-name filename</code> 查找文件名为filename的文件</p>
+      </li>
+      <li>
+        <p><code>-size [+-]SIZE</code> 查找比SIZE还要大（+）或小（-）的文件，这个SIZE的规格有：<code>c 代表byte</code>，<code>k 代表1024byete</code></p>
+      </li>
+      <li>
+        <p><code>-type TYPE</code> 查找文件的类型为TYPE的，类型主要有：一般正规文件（f）、设备文件（b，c）、目录（d）、连接文件（l）、socket（s）及FIFO（p）等属性</p>
+      </li>
+      <li>
+        <p><code>-perm mode</code> 查找文件权限“刚好等于”mode的文件，这个mode为类似chmod的属性</p>
+      </li>
+      <li>
+        <p><code>perm -mode</code> 查找文件权限“必须要全部包括mode的权限”的文件</p>
+      </li>
+      <li>
+        <p><code>perm +mode</code> 查找文件权限“包含任一mode的权限”的文件</p>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<pre>
+[terry@laptop ~]$ find / -name passwd #找出文件名为passwd的这个文件
+[terry@laptop ~]$ find / -perm +7000 #找出文件当中含有SGID或SUID或SBIT的属性
+</pre>
+
+<blockquote>
+  <p>find会自己查找子目录</p>
+</blockquote>
+
+<ul>
+  <li>
+    <p><strong>其他可进行的操作</strong></p>
+
+    <ul>
+      <li>
+        <p><code>-exec command</code> command为其他命令，-exec后面可再接其他的命令来处理查找到的结果</p>
+      </li>
+      <li>
+        <p><code>-print</code> 将结果打印到屏幕上，它是默认操作</p>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<pre>
+[terry@laptop ~]$ find / -perm +7000 -exec ls -l {} \;
+#将找到的文件使用ls -l列出来，-exec后面的ls -l就是额外的命令，命令不支持命令别名。{} 代表“由find找到的内容”，因为 ; 在bash环境下有特殊意义，因此要用反斜杠来转义
+
+[terry@laptop ~]$ find /etc -name '*httpd*' #找出/etc下，文件名包含httpd的文件
+</pre>
+
+<blockquote>
+  <p>Reference:《鸟哥的Linux私房菜》第三版</p>
+</blockquote>
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <!--<h2 class="footer-heading">Turbo Chen</h2>-->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li>Turbo Chen</li>
+          <li><a href="mailto:TurboChen@aliyun.com">TurboChen@aliyun.com</a></li>
+          <li class="copyright">© 2014-2015 TurboChen.com, <br>All Right Reserved</li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+
+          
+
+          
+          <li>
+            <a href="https://github.com/turbochen">
+              <span class="icon  icon--github">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
+                </svg>
+              </span>
+
+              <span class="username">turbochen</span>
+            </a>
+          </li>
+          
+
+          
+
+          
+
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+        <p class="text">◕‿◕<br>
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

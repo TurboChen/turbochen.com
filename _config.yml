@@ -1,0 +1,15 @@
+# Site settings
+title: Turbo Chen
+email: TurboChen@aliyun.com
+description: > # this means to ignore newlines until "baseurl:"
+  ◕‿◕<br>
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://turbochen.com" # the base hostname & protocol for your site
+u: "TurboChen.com"
+
+github_username: turbochen
+
+highlighter: pygments
+
+# Build settings
+markdown: kramdown

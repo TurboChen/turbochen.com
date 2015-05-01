@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>STM32 Wiki</title>
+  <meta name="description" content="GPIO Init structure definition">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://turbochen.com/2015/01/18/stm32-wiki.html">
+  <link rel="alternate" type="application/rss+xml" title="Turbo Chen" href="http://turbochen.com/feed.xml" />
+  <link rel="shortcut icon" href="/site-mini-icon-16x16.gif">
+  <link rel="stylesheet" href="/css/pygments.css">
+  
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <!-- <a class="site-title" href="/">Turbo Chen</a> -->
+    
+    <a class="site-title" href="/">
+
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 380 150" enable-background="new 0 0 380 150" xml:space="preserve">
+<rect x="16.6" y="104" transform="matrix(0.9992 -4.041747e-002 4.041747e-002 0.9992 -4.2315 7.9837)" fill="#FDF38B" width="357.4" height="9.4"/>
+<g>
+	<path fill="#010101" d="M17.2,50.5c-2.2,0-3.9-0.6-5-1.8c-1.2-1.2-1.8-2.7-1.8-4.5c0-0.4,0.1-1,0.2-1.6c0.1-0.6,0.3-1.1,0.5-1.6
+		c0.7,0.2,1.8,0.3,3.2,0.4c1.4,0.1,3,0.1,4.9,0.1c2.8,0,5.9,0,9.5,0s6.9-0.2,10.1-0.5c3.2-0.3,6.1-0.6,8.5-0.9s4-0.4,4.7-0.4
+		c2,0,3.5,0.8,4.4,2.3c0.9,1.5,1.6,3.5,2,6c-1.4-0.2-2.8-0.2-4.2-0.2c-1.4,0-2.6,0-3.6,0c-1.7,0-3.5,0-5.3,0c-1.8,0-3.6,0.1-5.4,0.3
+		c-0.8,1.6-1.6,3.5-2.5,5.6c-0.9,2.2-1.8,4.4-2.7,6.8c-0.9,2.4-1.8,4.7-2.6,7c-0.8,2.3-1.5,4.4-2.1,6.3c-1.2,3.6-2.3,6.9-3.2,10
+		c-0.9,3.1-1.7,5.9-2.4,8.6c-0.7,2.7-1.3,5.2-1.8,7.6c-0.5,2.4-0.9,4.8-1.3,7.1c-3.7-0.5-6.7-2.8-9.2-6.9c0.4-1.7,1-3.5,1.6-5.5
+		c0.6-2,1.4-4.3,2.2-6.8c0.8-2.5,1.8-5.4,3-8.6c1.1-3.2,2.5-6.9,3.9-11c0.5-1.5,1.1-3.1,1.7-4.8c0.6-1.7,1.2-3.3,1.8-5
+		c0.6-1.6,1.1-3.2,1.6-4.7c0.5-1.5,0.9-2.9,1.2-4.2c-2.3,0.3-4.5,0.5-6.5,0.7C20.6,50.5,18.8,50.5,17.2,50.5z"/>
+	<path fill="#010101" d="M61.8,98.3c-1-0.9-1.7-2-2.1-3.3c-0.4-1.3-0.5-2.4-0.5-3.4c0-1.1,0.1-2.1,0.4-2.9c-0.2,0-0.7,0.4-1.5,1.3
+		c-0.8,0.9-1.6,1.9-2.5,3.1c-0.9,1.2-1.8,2.4-2.7,3.5c-0.9,1.1-1.5,2-2,2.5c-0.7,0.8-1.4,1.4-2,1.8c-0.6,0.4-1.1,0.7-1.5,0.7
+		c-0.9,0-1.8-0.2-2.7-0.5c-1-0.3-1.9-0.7-2.7-1.3c-0.8-0.5-1.6-1.2-2.2-2c-0.6-0.8-1.1-1.6-1.3-2.6c0-1.5,0-2.8,0.1-3.8
+		c0.1-1,0.3-2,0.5-3.2c0.5-2.1,1.2-4.4,2.2-7c1-2.6,2.1-5.2,3.3-7.7c1.3-2.5,2.7-4.9,4.2-7.1c1.6-2.2,3.2-3.9,5-5.2
+		c0.5,0,1.1,0,1.7,0.1c0.7,0.1,1.3,0.2,2,0.5c0.7,0.2,1.3,0.5,2,0.8c0.6,0.3,1.2,0.7,1.6,1.2c-0.5,0.5-1.7,2.4-3.7,5.5
+		c-2,3.1-4.2,7.6-6.7,13.4c-0.3,0.6-0.6,1.5-1,2.6c-0.4,1.1-0.8,2.3-1.1,3.6c-0.4,1.3-0.7,2.5-0.9,3.7s-0.4,2.2-0.4,2.9
+		c0,0.4,0.1,0.8,0.2,1c0.1,0.2,0.3,0.4,0.4,0.5c0.8-0.3,1.9-1.2,3.1-2.7c1.3-1.5,3-3.7,5.2-6.8c0.5-0.8,1.2-1.6,1.9-2.6
+		c0.7-1,1.5-2,2.3-3.2c0.8-1.1,1.5-2.3,2.2-3.5c0.7-1.2,1.2-2.4,1.7-3.6c0.2-0.7,0.5-1.4,0.9-2.3c0.4-0.9,0.8-1.8,1.3-2.8
+		c0.5-1,1.1-2,1.8-3c0.7-1,1.5-2,2.4-2.8c0.7,0,1.5,0.1,2.3,0.2s1.6,0.4,2.3,0.6c0.7,0.2,1.4,0.5,1.9,0.8c0.5,0.3,1,0.6,1.2,0.9
+		c-1,2.4-2.1,4.8-3.3,7.1c-1.2,2.3-2.3,4.7-3.4,6.9c-1,2.3-1.9,4.5-2.6,6.8c-0.7,2.2-1.1,4.4-1.1,6.5c0,1.1,0.1,2.1,0.3,3
+		c0.2,0.8,0.4,1.6,0.6,2.1c0.2,0.6,0.4,1.1,0.6,1.4c0.2,0.4,0.3,0.7,0.3,1c0,0.1-0.1,0.1-0.2,0.2c-0.1,0.1-0.1,0.1-0.2,0.1
+		c-0.4,0-0.9-0.1-1.5-0.2c-0.6-0.2-1.3-0.4-2-0.7c-0.7-0.3-1.5-0.6-2.2-1C63.1,99.2,62.5,98.8,61.8,98.3z"/>
+	<path fill="#010101" d="M78,98.5c0.3-1.6,0.7-3.7,1.4-6.3c0.7-2.6,1.5-5.3,2.4-8.3c0.9-2.9,1.9-5.9,2.9-8.8c1-2.9,2-5.6,3-7.9
+		c0.7-1.7,1.3-3,1.9-4c0.5-1,1.1-1.8,1.8-2.4c0.8,0.1,1.6,0.3,2.4,0.6c0.8,0.3,1.6,0.6,2.4,1c0.8,0.4,1.4,0.8,2,1.2
+		c0.6,0.4,1.1,0.8,1.4,1.2c-1.5,1.7-2.8,3.7-3.9,6c-1.1,2.2-2.3,5.1-3.4,8.6c2.9-2.6,5.6-5.1,7.8-7.5c2.3-2.4,4.4-5.1,6.3-8
+		c0.3-0.3,0.9-0.4,1.7-0.4c0.8,0,1.5,0.1,2.2,0.4c0.7,0.2,1.2,0.6,1.5,1c-1,2.6-1.5,5.2-1.5,7.8c0,2.4,0.4,4.2,1.1,5.4
+		c-0.1,0.3-0.4,1-1.1,1.9c-0.7,0.9-1.4,1.8-2.3,2.6c-1.5-0.8-2.8-1.8-3.9-3.2c-1.1-1.3-2-2.8-2.5-4.4c-2.6,1.8-4.7,3.6-6.5,5.3
+		c-1.8,1.7-3.3,3.6-4.6,5.7c-1.3,2.1-2.4,4.5-3.3,7.2c-0.9,2.7-1.8,6-2.6,9.7c-0.5-0.1-1.1-0.2-1.8-0.5c-0.7-0.3-1.4-0.7-2-1.1
+		c-0.7-0.4-1.3-0.9-1.8-1.4C78.5,99.4,78.2,98.9,78,98.5z"/>
+	<path fill="#010101" d="M120.5,100.7c2.5-1.7,5-3.9,7.4-6.5c2.4-2.6,4.6-5.5,6.5-8.6c2-3.1,3.6-6.3,5-9.6c1.4-3.3,2.3-6.5,2.8-9.6
+		c0-0.7-0.4-1.1-1.1-1.3c-0.8,0-1.8,0.7-3.2,2c-1.3,1.3-2.8,3-4.4,5.1c-1.6,2.1-3.2,4.4-4.9,7c-1.7,2.6-3.2,5.1-4.5,7.7
+		c-1.4,2.5-2.5,4.9-3.5,7.1c-1,2.2-1.5,4-1.6,5.4c-0.5,0-1-0.5-1.4-1.6c-0.1-0.3-0.3-0.6-0.6-0.9c-0.3-0.3-0.7-0.7-1.3-1.1
+		c-0.3-0.2-0.5-0.5-0.8-0.8c-0.3-0.3-0.5-0.6-0.6-0.8c-0.2-0.4-0.3-1.1-0.3-2.1c0-3.2,0.4-6.8,1.2-10.9c0.8-4,1.9-8.2,3.2-12.4
+		c1.3-4.2,2.9-8.3,4.7-12.4c1.8-4.1,3.7-7.8,5.6-11.2c1.9-3.4,3.9-6.2,5.9-8.6c2-2.3,3.8-3.9,5.6-4.7c0.5,0.2,1.2,0.4,2,0.8
+		c0.8,0.4,1.5,0.8,2.3,1.3c0.8,0.5,1.5,1,2.2,1.5c0.7,0.5,1.2,0.9,1.5,1.3c-6,4.9-11.2,11.1-15.6,18.7c-4.4,7.6-8,16.6-10.8,27
+		c1.5-2.8,3.2-5.6,5.2-8.2c1.9-2.6,3.8-5,5.7-7c1.9-2,3.7-3.6,5.4-4.8c1.7-1.2,3.2-1.8,4.3-1.8c0.9,0.2,1.7,0.6,2.5,1.1
+		c0.8,0.5,1.6,1.2,2.2,2c0.7,0.8,1.2,1.6,1.6,2.5c0.4,0.9,0.7,1.8,0.8,2.8c-0.1,2.3-0.5,4.7-1.2,7.3c-0.7,2.6-1.7,5.1-2.9,7.7
+		c-1.2,2.5-2.6,4.9-4.2,7.2s-3.2,4.3-4.9,6c-1.7,1.7-3.4,3.1-5.2,4.1c-1.7,1-3.3,1.6-4.9,1.6c-0.7,0-1.3-0.1-2-0.2
+		c-0.7-0.1-1.3-0.3-1.9-0.6c-0.6-0.2-1-0.5-1.4-0.8C120.7,101.3,120.5,101,120.5,100.7z"/>
+	<path fill="#010101" d="M161.2,103c-3.1-0.3-5.6-1.7-7.4-4.1c-1.9-2.4-2.8-5.5-2.8-9.2c0-2.2,0.3-4.4,1-6.8
+		c0.7-2.3,1.6-4.6,2.8-6.8c1.2-2.2,2.6-4.3,4.3-6.3c1.6-2,3.4-3.7,5.3-5.1c3-2.2,5.8-3.4,8.4-3.4c1.7,0.9,3.5,2.9,5.2,5.8
+		c0.3,0,0.5,0,0.7,0c0.2,0,0.5,0,0.7,0c2.9,0,4.3,2.6,4.3,7.7c0,3.4-0.6,6.7-1.7,9.8c-1.1,3.1-2.7,5.9-4.7,8.4
+		c-2,2.5-4.4,4.6-7.1,6.3C167.5,101.1,164.5,102.3,161.2,103z M165.4,77.2c-0.9,1.3-1.8,2.6-2.6,4.1c-0.8,1.5-1.5,3-2.1,4.5
+		c-0.6,1.5-1.1,2.9-1.4,4.3c-0.3,1.4-0.5,2.6-0.5,3.7c0,1.3,0.2,2.6,0.7,3.8c0.4,1.2,0.9,1.9,1.5,2c2.5-0.5,4.7-1.6,6.8-3.1
+		c2-1.5,3.8-3.4,5.3-5.6c1.5-2.2,2.7-4.8,3.5-7.6c0.8-2.8,1.3-5.9,1.3-9.1c0-1.4-0.1-2.5-0.2-3.4c-0.2-0.8-0.4-1.5-0.8-2.1
+		c-2.4,0.7-4.5,1.9-6.4,3.4C168.4,73.8,166.8,75.5,165.4,77.2z"/>
+	<path fill="#010101" d="M190,84.2c0-3.8,0.5-7.6,1.4-11.3s2.2-7.2,3.8-10.5c1.6-3.3,3.6-6.3,5.9-9.1c2.3-2.8,4.7-5.1,7.4-7.2
+		c2.7-2,5.6-3.6,8.6-4.7c3.1-1.1,6.2-1.7,9.4-1.7c3.8,0,6.7,0.8,8.8,2.4c2.1,1.6,3.2,3.8,3.2,6.6c0,1.1-0.2,2.2-0.4,3.4
+		c-0.3,1.1-0.7,2.3-1.3,3.4c-0.6,1.1-1.2,2.2-2,3.2c-0.8,1-1.6,1.9-2.5,2.7c-1.4-0.2-2.6-0.9-3.7-1.9c-1-1.1-1.7-2.3-2-3.7
+		c1.9-1.6,3.4-3.2,4.5-5c1.1-1.7,1.7-3.3,1.7-4.7c0-2.4-1.5-3.6-4.5-3.6c-1.3,0-2.6,0.3-3.9,0.8c-1.3,0.5-2.7,1.2-4.1,2.2
+		c-1.4,0.9-2.7,2-4,3.4c-1.3,1.3-2.5,2.8-3.6,4.3c-7.6,10.9-11.4,22.1-11.4,33.5c0,4,0.6,7.3,1.9,9.7c1.3,2.5,2.9,3.9,5,4.3
+		c2.3-0.5,5.3-2,8.9-4.5c3.6-2.5,7.5-5.6,11.8-9.6c0.5,0.5,0.9,1.1,1,1.7c-1.6,2.1-3.2,4-4.9,5.9c-1.7,1.9-3.4,3.6-5,5.2
+		c-1.7,1.6-3.3,3-4.9,4.2c-1.6,1.2-3.1,2.1-4.5,2.8c-6.8,0-11.9-1.9-15.4-5.7C191.8,97,190,91.5,190,84.2z"/>
+	<path fill="#010101" d="M235.2,98.7c0-1.9,0.2-4.2,0.6-6.8c0.4-2.6,0.9-5.4,1.7-8.3c0.7-2.9,1.6-6,2.6-9.2c1-3.2,2.1-6.4,3.4-9.7
+		c1.1-2.9,2.4-5.8,3.8-8.8c1.4-2.9,3-5.8,4.7-8.7c1.7-2.8,3.4-5.5,5.3-8.1c1.8-2.6,3.7-4.9,5.5-7c0.9,0,1.8,0.1,2.8,0.3
+		c1,0.2,2,0.5,2.9,0.9c1,0.4,1.8,0.8,2.6,1.3c0.8,0.5,1.4,1,1.9,1.5c-4.1,4.2-7.8,8.4-11,12.7c-3.3,4.3-5.9,8.3-7.8,12.1
+		c-1,2.1-2,4-2.8,5.8c-0.8,1.8-1.6,3.6-2.3,5.4c-0.7,1.8-1.4,3.5-1.9,5.3c-0.6,1.8-1.1,3.6-1.6,5.6C256.1,69.7,263.9,63,268.9,63
+		c1.4,0,2.9,0.5,4.6,1.4c1.6,0.9,3.1,2.2,4.3,3.8c-1.7,1.9-3.4,4.1-5.2,6.7c-1.8,2.6-3.5,5.3-4.9,7.9c-1.5,2.6-2.7,5.1-3.7,7.4
+		c-1,2.3-1.4,3.9-1.4,5c0,0.5,0.1,0.9,0.2,1.1c0.2,0.2,0.5,0.3,1.1,0.3c0.8,0,1.5-0.1,2-0.3c0.5-0.2,0.8-0.3,0.9-0.3
+		c0.3,0.4,0.4,0.7,0.5,0.9c0.1,0.2,0.1,0.3,0.1,0.4c0,0.2-0.3,0.5-1,0.9c-0.7,0.4-1.4,0.8-2.3,1.2c-0.9,0.4-1.8,0.8-2.7,1.1
+		c-0.9,0.3-1.5,0.5-2,0.5c-0.5,0-1.1-0.2-1.6-0.4c-0.5-0.3-1-0.7-1.4-1.2c-0.4-0.5-0.7-1-1-1.6c-0.2-0.6-0.4-1.2-0.4-1.9
+		c0-0.8,0.2-2,0.7-3.6s1.1-3.5,1.9-5.6c0.8-2.2,1.8-4.5,2.9-7.1c1.1-2.6,2.4-5.2,3.7-7.9c0-0.2-0.1-0.3-0.3-0.3
+		c-0.2,0-0.6,0.2-1.3,0.7c-0.7,0.4-1.3,0.9-1.9,1.3c-2,1.5-3.9,3.3-5.9,5.4c-2,2.2-3.9,4.5-5.8,7.1c-1.9,2.6-3.7,5.3-5.3,8.1
+		c-1.7,2.9-3.1,5.7-4.3,8.6c-0.2,0.4-0.4,0.7-0.7,1.1c-0.3,0.3-0.6,0.5-0.8,0.5c-0.2,0-0.4-0.2-0.7-0.6c-0.3-0.4-0.6-0.9-0.8-1.4
+		c-0.2-0.6-0.5-1.2-0.7-1.8C235.3,99.7,235.2,99.2,235.2,98.7z"/>
+	<path fill="#010101" d="M306.9,66.3c-0.2,3.4-0.8,6.3-1.8,8.7c-1,2.4-2.4,4.6-4.2,6.4c-1.8,1.8-4.1,3.5-6.7,5s-5.7,2.9-9.2,4.3
+		c0,0.3,0,0.7,0,1c0,0.4,0,0.7,0,1.1c0,0.7,0.1,1.4,0.2,2.2c0.1,0.8,0.3,1.5,0.6,2.1c0.3,0.7,0.7,1.2,1.1,1.6
+		c0.5,0.4,1.1,0.6,1.9,0.6c1.5,0,2.9-0.3,4.3-1c1.4-0.7,2.8-1.5,4.1-2.4c1.3-1,2.5-2,3.6-3.1c1.1-1.1,2.1-2.1,3-3.1
+		c0.5,0.5,1,1,1.4,1.4c-2.5,3.3-5.1,6-8.1,8.1c-2.9,2.2-5.7,3.5-8.3,4.1c-3.8-0.4-6.7-1.8-8.8-4.1c-2.1-2.3-3.2-5.1-3.2-8.4
+		c0-2.2,0.3-4.5,0.9-6.8c0.6-2.3,1.5-4.6,2.6-6.7c1.1-2.2,2.4-4.2,3.9-6.1c1.5-1.9,3.1-3.6,4.8-5c1.7-1.4,3.5-2.5,5.3-3.4
+		c1.8-0.8,3.6-1.2,5.4-1.2C302.4,61.9,304.7,63.5,306.9,66.3z M301.3,69c-1.5,0.2-3,0.8-4.6,1.8c-1.6,1-3.1,2.3-4.5,3.9
+		c-1.4,1.6-2.7,3.5-3.8,5.7c-1.1,2.2-2,4.5-2.7,7c4.4-2.2,8-4.9,10.9-8.1C299.5,76.2,301,72.7,301.3,69z"/>
+	<path fill="#010101" d="M323.9,60.4c1.4,0.4,2.8,1.4,4,2.9c1.3,1.5,2.2,3.2,2.8,5c-0.6,1.5-1.5,3.2-2.8,5.3
+		c-1.3,2.1-2.5,4.2-3.8,6.3c-1.3,2.2-2.4,4.2-3.4,6.1c-1,1.9-1.6,3.5-1.8,4.8c0.9-0.9,1.8-2,2.9-3.2c1.1-1.2,2.1-2.5,3.1-3.7
+		c1-1.2,2-2.3,2.8-3.4c0.9-1,1.6-1.8,2-2.3c1-1.1,2.3-2.4,3.7-3.8c1.4-1.4,2.9-2.8,4.5-4.1c1.6-1.3,3.1-2.4,4.7-3.3
+		c1.6-0.9,3-1.4,4.3-1.4c1.4,0,2.6,0.5,3.6,1.4c1,1,1.7,2,2.3,3c0,0.1-0.2,0.3-0.6,0.4c-0.4,0.2-1,0.7-1.8,1.6
+		c-0.8,1-1.6,2.3-2.6,4.1c-1,1.7-1.9,3.6-2.8,5.6c-0.9,2-1.7,4-2.3,6.1c-0.6,2.1-0.9,4-0.9,5.6c0,1.4,0.2,2.2,0.5,2.6
+		c0.4,0.4,0.9,0.6,1.5,0.6c0.6,0,1.2-0.1,1.9-0.4c0.7-0.3,1.2-0.4,1.6-0.4c0.2,0.1,0.4,0.3,0.5,0.7c0.1,0.4,0.2,0.7,0.2,0.9
+		c-0.4,0.4-1,0.8-1.6,1.1c-0.6,0.4-1.2,0.7-1.9,1.1c-0.7,0.3-1.3,0.6-1.9,0.8c-0.6,0.2-1.2,0.3-1.7,0.3c-1.6,0-2.9-0.2-3.9-0.7
+		c-1-0.5-1.8-1.1-2.4-1.8c-0.6-0.8-1-1.7-1.2-2.7c-0.2-1.1-0.3-2.2-0.3-3.4c0-0.7,0.1-1.4,0.2-2.2c0.1-0.8,0.3-1.8,0.7-2.9
+		c0.3-1.1,0.8-2.5,1.4-4c0.6-1.6,1.4-3.4,2.3-5.6c-0.1,0-0.8,0.4-2.2,1.1c-1.4,0.8-2.8,1.9-4.4,3.5c-2.6,2.5-4.9,4.9-6.9,7.3
+		c-2,2.4-4.1,5.1-6.3,8c-1.2,1.7-2.2,3.1-3.2,4.3c-0.9,1.2-1.7,2-2.3,2.3c-1.1-0.7-2-1.6-2.5-2.7c-0.5-1.2-1-2.4-1.2-3.6
+		c0-1,0.2-2.3,0.5-3.9c0.3-1.6,0.7-3.3,1.2-5.3c0.5-1.9,1.2-4,1.9-6.1c0.8-2.1,1.6-4.3,2.5-6.4c2.1-4.8,4-8.6,5.7-11.3
+		C322.4,62.1,323.5,60.7,323.9,60.4z"/>
+</g>
+</svg>
+
+    
+
+    </a>
+    
+    <nav class="site-nav">
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About</a>
+          
+        
+          
+          <a class="page-link" href="/albums/">Albums</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <a class="page-link" href="/words/">Words</a>
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">STM32 Wiki</h1>
+    <p class="post-meta">Jan 18, 2015 # stm32, wiki, and microcontroller</p>
+  </header>
+
+  <article class="post-content">
+    <h2 id="gpio-init-structure-definition">GPIO Init structure definition</h2>
+
+<div class="highlight"><pre><code class="language-c" data-lang="c"><span class="k">typedef</span> <span class="k">struct</span>
+<span class="p">{</span>
+  <span class="kt">uint16_t</span> <span class="n">GPIO_Pin</span><span class="p">;</span>             <span class="cm">/*!&lt; Specifies the GPIO pins to be configured.</span>
+<span class="cm">                                      This parameter can be any value of @ref GPIO_pins_define */</span>
+                                 <span class="cm">/*指定将要进行配置的 GPIO 引脚*/</span>
+                                 
+  <span class="n">GPIOSpeed_TypeDef</span> <span class="n">GPIO_Speed</span><span class="p">;</span>  <span class="cm">/*!&lt; Specifies the speed for the selected pins.</span>
+<span class="cm">                                      This parameter can be a value of @ref GPIOSpeed_TypeDef */</span>
+                                 <span class="cm">/*指定 GPIO 引脚可输出的最高频率*/</span>
+
+  <span class="n">GPIOMode_TypeDef</span> <span class="n">GPIO_Mode</span><span class="p">;</span>    <span class="cm">/*!&lt; Specifies the operating mode for the selected pins.</span>
+<span class="cm">                                      This parameter can be a value of @ref GPIOMode_TypeDef */</span>
+                                 <span class="cm">/*指定 GPIO 引脚将要配置成的工作状态*/</span>
+<span class="p">}</span><span class="n">GPIO_InitTypeDef</span><span class="p">;</span></code></pre></div>
+
+<h2 id="gpiopinsdefine">GPIO_pins_define</h2>
+
+<div class="highlight"><pre><code class="language-c" data-lang="c"><span class="cp">#define GPIO_Pin_0                 ((uint16_t)0x0001)  </span><span class="cm">/*!&lt; Pin 0 selected */</span><span class="cp"></span>
+<span class="cp">#define GPIO_Pin_1                 ((uint16_t)0x0002)  </span><span class="cm">/*!&lt; Pin 1 selected */</span><span class="cp"></span>
+<span class="cp">#define GPIO_Pin_2                 ((uint16_t)0x0004)  </span><span class="cm">/*!&lt; Pin 2 selected */</span><span class="cp"></span>
+<span class="cp">#define GPIO_Pin_3                 ((uint16_t)0x0008)  </span><span class="cm">/*!&lt; Pin 3 selected */</span><span class="cp"></span>
+<span class="cp">#define GPIO_Pin_4                 ((uint16_t)0x0010)  </span><span class="cm">/*!&lt; Pin 4 selected */</span><span class="cp"></span>
+<span class="cp">#define GPIO_Pin_5                 ((uint16_t)0x0020)  </span><span class="cm">/*!&lt; Pin 5 selected */</span><span class="cp"></span>
+<span class="cp">#define GPIO_Pin_6                 ((uint16_t)0x0040)  </span><span class="cm">/*!&lt; Pin 6 selected */</span><span class="cp"></span>
+<span class="cp">#define GPIO_Pin_7                 ((uint16_t)0x0080)  </span><span class="cm">/*!&lt; Pin 7 selected */</span><span class="cp"></span>
+<span class="cp">#define GPIO_Pin_8                 ((uint16_t)0x0100)  </span><span class="cm">/*!&lt; Pin 8 selected */</span><span class="cp"></span>
+<span class="cp">#define GPIO_Pin_9                 ((uint16_t)0x0200)  </span><span class="cm">/*!&lt; Pin 9 selected */</span><span class="cp"></span>
+<span class="cp">#define GPIO_Pin_10                ((uint16_t)0x0400)  </span><span class="cm">/*!&lt; Pin 10 selected */</span><span class="cp"></span>
+<span class="cp">#define GPIO_Pin_11                ((uint16_t)0x0800)  </span><span class="cm">/*!&lt; Pin 11 selected */</span><span class="cp"></span>
+<span class="cp">#define GPIO_Pin_12                ((uint16_t)0x1000)  </span><span class="cm">/*!&lt; Pin 12 selected */</span><span class="cp"></span>
+<span class="cp">#define GPIO_Pin_13                ((uint16_t)0x2000)  </span><span class="cm">/*!&lt; Pin 13 selected */</span><span class="cp"></span>
+<span class="cp">#define GPIO_Pin_14                ((uint16_t)0x4000)  </span><span class="cm">/*!&lt; Pin 14 selected */</span><span class="cp"></span>
+<span class="cp">#define GPIO_Pin_15                ((uint16_t)0x8000)  </span><span class="cm">/*!&lt; Pin 15 selected */</span><span class="cp"></span>
+<span class="cp">#define GPIO_Pin_All               ((uint16_t)0xFFFF)  </span><span class="cm">/*!&lt; All pins selected */</span><span class="cp"></span></code></pre></div>
+
+<h2 id="output-maximum-frequency-selection">Output Maximum frequency selection</h2>
+
+<div class="highlight"><pre><code class="language-c" data-lang="c"><span class="k">typedef</span> <span class="k">enum</span> <span class="c1">//枚举常量</span>
+<span class="p">{</span> 
+  <span class="n">GPIO_Speed_10MHz</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span>
+  <span class="n">GPIO_Speed_2MHz</span><span class="p">,</span> 
+  <span class="n">GPIO_Speed_50MHz</span>
+<span class="p">}</span><span class="n">GPIOSpeed_TypeDef</span><span class="p">;</span>
+<span class="cp">#define IS_GPIO_SPEED(SPEED) (((SPEED) == GPIO_Speed_10MHz) || ((SPEED) == GPIO_Speed_2MHz) || \</span>
+<span class="cp">                              ((SPEED) == GPIO_Speed_50MHz))</span></code></pre></div>
+
+<h2 id="configuration-mode-enumeration">Configuration Mode enumeration</h2>
+
+<div class="highlight"><pre><code class="language-c" data-lang="c"><span class="k">typedef</span> <span class="k">enum</span>
+<span class="p">{</span>
+  <span class="n">GPIO_Mode_AIN</span> <span class="o">=</span> <span class="mh">0x0</span><span class="p">,</span>              <span class="c1">//模拟输入模式</span>
+  <span class="n">GPIO_Mode_IN_FLOATING</span> <span class="o">=</span> <span class="mh">0x04</span><span class="p">,</span>     <span class="c1">//浮空输入模式</span>
+  <span class="n">GPIO_Mode_IPD</span> <span class="o">=</span> <span class="mh">0x28</span><span class="p">,</span>             <span class="c1">//下拉输入模式</span>
+  <span class="n">GPIO_Mode_IPU</span> <span class="o">=</span> <span class="mh">0x48</span><span class="p">,</span>             <span class="c1">//上啦输入模式</span>
+  <span class="n">GPIO_Mode_Out_OD</span> <span class="o">=</span> <span class="mh">0x14</span><span class="p">,</span>          <span class="c1">//开漏输出模式</span>
+  <span class="n">GPIO_Mode_Out_PP</span> <span class="o">=</span> <span class="mh">0x10</span><span class="p">,</span>          <span class="c1">//通用推挽输出模式</span>
+  <span class="n">GPIO_Mode_AF_OD</span> <span class="o">=</span> <span class="mh">0x1C</span><span class="p">,</span>           <span class="c1">//复用功能开漏输出</span>
+  <span class="n">GPIO_Mode_AF_PP</span> <span class="o">=</span> <span class="mh">0x18</span>            <span class="c1">//复用功能推挽输出</span>
+<span class="p">}</span><span class="n">GPIOMode_TypeDef</span><span class="p">;</span>
+
+<span class="cp">#define IS_GPIO_MODE(MODE) (((MODE) == GPIO_Mode_AIN) || ((MODE) == GPIO_Mode_IN_FLOATING) || \</span>
+<span class="cp">                            ((MODE) == GPIO_Mode_IPD) || ((MODE) == GPIO_Mode_IPU) || \</span>
+<span class="cp">                            ((MODE) == GPIO_Mode_Out_OD) || ((MODE) == GPIO_Mode_Out_PP) || \</span>
+<span class="cp">                            ((MODE) == GPIO_Mode_AF_OD) || ((MODE) == GPIO_Mode_AF_PP))</span></code></pre></div>
+
+<h2 id="startupstm32f10xhds">启动文件 startup_stm32f10x_hd.s</h2>
+
+<div class="highlight"><pre><code class="language-c" data-lang="c"><span class="p">;</span> <span class="n">Reset</span> <span class="n">handler</span> <span class="err">子程序开始</span>
+<span class="n">Reset_Handler</span>   <span class="n">PROC</span>
+                <span class="n">EXPORT</span>  <span class="n">Reset_Handler</span>             <span class="p">[</span><span class="n">WEAK</span><span class="p">]</span>    <span class="p">;</span><span class="err">输出子程序</span> <span class="n">Reset_Handler</span> <span class="err">到外部文件</span>
+                <span class="n">IMPORT</span>  <span class="n">__main</span>          <span class="p">;</span><span class="err">从外部文件中引入</span><span class="n">__main</span> <span class="err">函数</span>
+                <span class="n">IMPORT</span>  <span class="n">SystemInit</span>      <span class="p">;</span><span class="err">从外部文件引入</span> <span class="n">SystemInit</span> <span class="err">函数</span>
+                <span class="n">LDR</span>     <span class="n">R0</span><span class="p">,</span> <span class="o">=</span><span class="n">SystemInit</span> <span class="p">;</span><span class="err">把</span> <span class="n">SystemInit</span> <span class="err">函数调用地址加载到通用寄存器</span> <span class="n">r0</span>
+                <span class="n">BLX</span>     <span class="n">R0</span>              <span class="p">;</span><span class="err">跳转到</span> <span class="n">r0</span> <span class="err">中保存的地址执行程序（调用</span> <span class="n">SystemInit</span> <span class="err">函数）</span>
+                <span class="n">LDR</span>     <span class="n">R0</span><span class="p">,</span> <span class="o">=</span><span class="n">__main</span>     <span class="p">;</span><span class="err">把</span> <span class="n">main</span> <span class="err">函数调用地址加载到通用寄存器</span> <span class="n">r0</span>
+                <span class="n">BX</span>      <span class="n">R0</span>              <span class="p">;</span><span class="err">跳转到</span> <span class="n">r0</span> <span class="err">中保存的地址执行程序（调用</span> <span class="n">main</span> <span class="err">函数）</span>
+                <span class="n">ENDP</span>    <span class="p">;</span> <span class="err">子程序结束</span></code></pre></div>
+
+<blockquote>
+  <p>当芯片被复位（包括上电复位）时，将开始运行这一段代码，运行过程是先调用SystemInit()函数，再进入 C 语言中的“__main”（注意与 main 的区别）函数执行，这是一个 C 标准库的初始化函数，执行这个函数后，最终跳转到用户文件中的“main”函数入口，开始运行主程序。也就是说，在进入 main 函数之前调用了一个名为 SystemInit() 的函数。这个函数的定义在 system_stm32f10x.c 文件之中，它的作用是设置系统时钟 SYSCLK。函数的执行流程是先将与配置时钟相关的寄存器都复位为默认值，复位寄存器后，调用了另外一个函数SetSysClock()，SetSysClock()</p>
+</blockquote>
+
+<h2 id="configures-the-system-clock-frequency-hclk-pclk2-and-pclk1-prescalers">Configures the System clock frequency, HCLK, PCLK2 and PCLK1 prescalers.</h2>
+
+<div class="highlight"><pre><code class="language-c" data-lang="c"><span class="k">static</span> <span class="kt">void</span> <span class="nf">SetSysClock</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span>
+<span class="p">{</span>
+<span class="cp">#ifdef SYSCLK_FREQ_HSE</span>
+  <span class="n">SetSysClockToHSE</span><span class="p">();</span>
+<span class="cp">#elif defined SYSCLK_FREQ_24MHz</span>
+  <span class="n">SetSysClockTo24</span><span class="p">();</span>
+<span class="cp">#elif defined SYSCLK_FREQ_36MHz</span>
+  <span class="n">SetSysClockTo36</span><span class="p">();</span>
+<span class="cp">#elif defined SYSCLK_FREQ_48MHz</span>
+  <span class="n">SetSysClockTo48</span><span class="p">();</span>
+<span class="cp">#elif defined SYSCLK_FREQ_56MHz</span>
+  <span class="n">SetSysClockTo56</span><span class="p">();</span>  
+<span class="cp">#elif defined SYSCLK_FREQ_72MHz</span>
+  <span class="n">SetSysClockTo72</span><span class="p">();</span>
+<span class="cp">#endif</span>
+ 
+ <span class="cm">/* If none of the define above is enabled, the HSI is used as System clock</span>
+<span class="cm">    source (default after reset) */</span> 
+<span class="p">}</span></code></pre></div>
+
+<h2 id="sysclkfreq-">SYSCLK_FREQ 的宏定义</h2>
+
+<div class="highlight"><pre><code class="language-c" data-lang="c"><span class="cp">#if defined (STM32F10X_LD_VL) || (defined STM32F10X_MD_VL) || (defined STM32F10X_HD_VL)</span>
+<span class="cm">/* #define SYSCLK_FREQ_HSE    HSE_VALUE */</span>
+ <span class="cp">#define SYSCLK_FREQ_24MHz  24000000</span>
+<span class="cp">#else</span>
+<span class="cm">/* #define SYSCLK_FREQ_HSE    HSE_VALUE */</span>
+<span class="cm">/* #define SYSCLK_FREQ_24MHz  24000000 */</span> 
+<span class="cm">/* #define SYSCLK_FREQ_36MHz  36000000 */</span>
+<span class="cm">/* #define SYSCLK_FREQ_48MHz  48000000 */</span>
+<span class="cm">/* #define SYSCLK_FREQ_56MHz  56000000 */</span>
+<span class="cp">#define SYSCLK_FREQ_72MHz  72000000</span>
+<span class="cp">#endif</span></code></pre></div>
+
+<h2 id="gpio--apb2-">所有的 GPIO 都是挂载在 APB2 上的。</h2>
+
+<div class="highlight"><pre><code class="language-c" data-lang="c"><span class="kt">void</span> <span class="n">RCC_APB2PeriphClockCmd</span>  <span class="p">(</span>  <span class="kt">uint32_t</span>  <span class="n">RCC_APB2Periph</span><span class="p">,</span>  
+                                <span class="n">FunctionalState</span>  <span class="n">NewState</span>  
+ <span class="p">)</span>   
+
+<span class="c1">// Enables or disables the High Speed APB (APB2) peripheral clock. </span>
+
+<span class="c1">// Parameters: RCC_APB2Periph,: specifies the APB2 peripheral to gates its clock. This parameter can be any combination of the following values: </span>
+
+<span class="n">RCC_APB2Periph_AFIO</span><span class="p">,</span> 
+<span class="n">RCC_APB2Periph_GPIOA</span><span class="p">,</span> 
+<span class="n">RCC_APB2Periph_GPIOB</span><span class="p">,</span> 
+<span class="n">RCC_APB2Periph_GPIOC</span><span class="p">,</span> 
+<span class="n">RCC_APB2Periph_GPIOD</span><span class="p">,</span> 
+<span class="n">RCC_APB2Periph_GPIOE</span><span class="p">,</span> 
+<span class="n">RCC_APB2Periph_GPIOF</span><span class="p">,</span> 
+<span class="n">RCC_APB2Periph_GPIOG</span><span class="p">,</span> 
+<span class="n">RCC_APB2Periph_ADC1</span><span class="p">,</span> 
+<span class="n">RCC_APB2Periph_ADC2</span><span class="p">,</span> 
+<span class="n">RCC_APB2Periph_TIM1</span><span class="p">,</span> 
+<span class="n">RCC_APB2Periph_SPI1</span><span class="p">,</span> 
+<span class="n">RCC_APB2Periph_TIM8</span><span class="p">,</span> 
+<span class="n">RCC_APB2Periph_USART1</span><span class="p">,</span> 
+<span class="n">RCC_APB2Periph_ADC3</span><span class="p">,</span> 
+<span class="n">RCC_APB2Periph_TIM15</span><span class="p">,</span> 
+<span class="n">RCC_APB2Periph_TIM16</span><span class="p">,</span> 
+<span class="n">RCC_APB2Periph_TIM17</span><span class="p">,</span> 
+<span class="n">RCC_APB2Periph_TIM9</span><span class="p">,</span> 
+<span class="n">RCC_APB2Periph_TIM10</span><span class="p">,</span> 
+<span class="n">RCC_APB2Periph_TIM11</span> 
+ 
+<span class="c1">// NewState,: new state of the specified peripheral clock. This parameter can be: ENABLE or DISABLE.  </span>
+
+<span class="c1">// Return values: None</span></code></pre></div>
+
+<h2 id="section">控制输出高电平、低电平</h2>
+
+<div class="highlight"><pre><code class="language-c" data-lang="c"><span class="kt">void</span> <span class="n">GPIO_SetBits</span>  <span class="p">(</span>    <span class="n">GPIO_TypeDef</span> <span class="o">*</span>  <span class="n">GPIOx</span><span class="p">,</span>  
+                        <span class="kt">uint16_t</span>  <span class="n">GPIO_Pin</span>  
+ <span class="p">)</span></code></pre></div>
+
+<p>Sets the selected data port bits.</p>
+
+<p>Parameters:
+GPIOx,: where x can be (A..G) to select the GPIO peripheral.<br />
+GPIO_Pin,: specifies the port bits to be written. This parameter can be any combination of GPIO_Pin_x where x can be (0..15).</p>
+
+<p>Return values: None<br />
+Definition at line 358 of file stm32f10x_gpio.c.</p>
+
+<div class="highlight"><pre><code class="language-c" data-lang="c"><span class="kt">void</span> <span class="n">GPIO_ResetBits</span>  <span class="p">(</span>  <span class="n">GPIO_TypeDef</span> <span class="o">*</span>  <span class="n">GPIOx</span><span class="p">,</span>  
+                        <span class="kt">uint16_t</span>  <span class="n">GPIO_Pin</span>  
+ <span class="p">)</span></code></pre></div>
+
+<p>Clears the selected data port bits.</p>
+
+<p>Parameters:
+GPIOx,: where x can be (A..G) to select the GPIO peripheral.<br />
+GPIO_Pin,: specifies the port bits to be written. This parameter can be any combination of GPIO_Pin_x where x can be (0..15).</p>
+
+<p>Return values: None<br />
+Definition at line 374 of file stm32f10x_gpio.c.</p>
+
+<h2 id="gpioinit">GPIO_Init()</h2>
+
+<div class="highlight"><pre><code class="language-c" data-lang="c"><span class="cm">/**</span>
+<span class="cm">  * @brief  Initializes the GPIOx peripheral according to the specified</span>
+<span class="cm">  *         parameters in the GPIO_InitStruct.</span>
+<span class="cm">  * @param  GPIOx: where x can be (A..G) to select the GPIO peripheral.</span>
+<span class="cm">  * @param  GPIO_InitStruct: pointer to a GPIO_InitTypeDef structure that</span>
+<span class="cm">  *         contains the configuration information for the specified GPIO peripheral.</span>
+<span class="cm">  * @retval None</span>
+<span class="cm">  */</span>
+<span class="kt">void</span> <span class="nf">GPIO_Init</span><span class="p">(</span><span class="n">GPIO_TypeDef</span><span class="o">*</span> <span class="n">GPIOx</span><span class="p">,</span> <span class="n">GPIO_InitTypeDef</span><span class="o">*</span> <span class="n">GPIO_InitStruct</span><span class="p">)</span>
+<span class="p">{</span>
+  <span class="kt">uint32_t</span> <span class="n">currentmode</span> <span class="o">=</span> <span class="mh">0x00</span><span class="p">,</span> <span class="n">currentpin</span> <span class="o">=</span> <span class="mh">0x00</span><span class="p">,</span> <span class="n">pinpos</span> <span class="o">=</span> <span class="mh">0x00</span><span class="p">,</span> <span class="n">pos</span> <span class="o">=</span> <span class="mh">0x00</span><span class="p">;</span>
+  <span class="kt">uint32_t</span> <span class="n">tmpreg</span> <span class="o">=</span> <span class="mh">0x00</span><span class="p">,</span> <span class="n">pinmask</span> <span class="o">=</span> <span class="mh">0x00</span><span class="p">;</span>
+  <span class="cm">/* Check the parameters */</span> <span class="cm">/* 断言，用于检查输入的参数是否正确 */</span>
+  <span class="n">assert_param</span><span class="p">(</span><span class="n">IS_GPIO_ALL_PERIPH</span><span class="p">(</span><span class="n">GPIOx</span><span class="p">));</span>
+  <span class="n">assert_param</span><span class="p">(</span><span class="n">IS_GPIO_MODE</span><span class="p">(</span><span class="n">GPIO_InitStruct</span><span class="o">-&gt;</span><span class="n">GPIO_Mode</span><span class="p">));</span>
+  <span class="n">assert_param</span><span class="p">(</span><span class="n">IS_GPIO_PIN</span><span class="p">(</span><span class="n">GPIO_InitStruct</span><span class="o">-&gt;</span><span class="n">GPIO_Pin</span><span class="p">));</span>  
+  
+<span class="cm">/*---------------------------- GPIO Mode Configuration -----------------------*/</span>
+<span class="cm">/*-------------------------------- GPIO 的模式配置 -----------------------------*/</span>
+  <span class="cm">/*把输入参数 GPIO_Mode 的低四位暂存在 currentmode*/</span>
+  <span class="n">currentmode</span> <span class="o">=</span> <span class="p">((</span><span class="kt">uint32_t</span><span class="p">)</span><span class="n">GPIO_InitStruct</span><span class="o">-&gt;</span><span class="n">GPIO_Mode</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">((</span><span class="kt">uint32_t</span><span class="p">)</span><span class="mh">0x0F</span><span class="p">);</span>
+  <span class="cm">/*判断是否为输出模式，输出模式，可输入参数中输出模式的 bit4 位都是 1*/</span>
+  <span class="k">if</span> <span class="p">((((</span><span class="kt">uint32_t</span><span class="p">)</span><span class="n">GPIO_InitStruct</span><span class="o">-&gt;</span><span class="n">GPIO_Mode</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">((</span><span class="kt">uint32_t</span><span class="p">)</span><span class="mh">0x10</span><span class="p">))</span> <span class="o">!=</span> <span class="mh">0x00</span><span class="p">)</span>
+  <span class="p">{</span> 
+    <span class="cm">/* Check the parameters */</span> <span class="cm">/* 检查输入参数 */</span>
+    <span class="n">assert_param</span><span class="p">(</span><span class="n">IS_GPIO_SPEED</span><span class="p">(</span><span class="n">GPIO_InitStruct</span><span class="o">-&gt;</span><span class="n">GPIO_Speed</span><span class="p">));</span>
+    <span class="cm">/* Output mode */</span> <span class="cm">/* 输出模式，所以要配置 GPIO 的速率:00(输入模式) 01(10MHz) 10(2MHz) 11 */</span>
+    <span class="n">currentmode</span> <span class="o">|=</span> <span class="p">(</span><span class="kt">uint32_t</span><span class="p">)</span><span class="n">GPIO_InitStruct</span><span class="o">-&gt;</span><span class="n">GPIO_Speed</span><span class="p">;</span>
+  <span class="p">}</span>
+<span class="cm">/*---------------------------- GPIO CRL Configuration ------------------------*/</span>
+<span class="cm">/*----------------------------- 配置 GPIO 的 CRL 寄存器，也就是配置 pin0 ~~ pin7 */</span>
+  <span class="cm">/* Configure the eight low port pins */</span>
+  <span class="k">if</span> <span class="p">(((</span><span class="kt">uint32_t</span><span class="p">)</span><span class="n">GPIO_InitStruct</span><span class="o">-&gt;</span><span class="n">GPIO_Pin</span> <span class="o">&amp;</span> <span class="p">((</span><span class="kt">uint32_t</span><span class="p">)</span><span class="mh">0x00FF</span><span class="p">))</span> <span class="o">!=</span> <span class="mh">0x00</span><span class="p">)</span>
+  <span class="p">{</span>
+    <span class="cm">/*备份原 CRL 寄存器的值*/</span>
+    <span class="n">tmpreg</span> <span class="o">=</span> <span class="n">GPIOx</span><span class="o">-&gt;</span><span class="n">CRL</span><span class="p">;</span>
+    <span class="cm">/*循环，每次循环设置一个寄存器位*/</span>
+    <span class="k">for</span> <span class="p">(</span><span class="n">pinpos</span> <span class="o">=</span> <span class="mh">0x00</span><span class="p">;</span> <span class="n">pinpos</span> <span class="o">&lt;</span> <span class="mh">0x08</span><span class="p">;</span> <span class="n">pinpos</span><span class="o">++</span><span class="p">)</span>
+    <span class="p">{</span>
+      <span class="cm">/*pos 的值为 1 左移 pinpos 位*/</span>
+      <span class="n">pos</span> <span class="o">=</span> <span class="p">((</span><span class="kt">uint32_t</span><span class="p">)</span><span class="mh">0x01</span><span class="p">)</span> <span class="o">&lt;&lt;</span> <span class="n">pinpos</span><span class="p">;</span>
+      <span class="cm">/* Get the port pins position */</span>  <span class="cm">/* 令 pos 与输入参数 GPIO_PIN 作位与运算，为下面的判断作准备 */</span>
+      <span class="n">currentpin</span> <span class="o">=</span> <span class="p">(</span><span class="n">GPIO_InitStruct</span><span class="o">-&gt;</span><span class="n">GPIO_Pin</span><span class="p">)</span> <span class="o">&amp;</span> <span class="n">pos</span><span class="p">;</span>
+            <span class="cm">/*判断，若 currentpin == pos,说明 GPIO_PIN 参数中含的第 pos 个引脚需要配置*/</span>
+      <span class="k">if</span> <span class="p">(</span><span class="n">currentpin</span> <span class="o">==</span> <span class="n">pos</span><span class="p">)</span>
+      <span class="p">{</span>
+                <span class="cm">/*pos 的值左移两位（乘以 4），因为寄存器中 4 个寄存器位配置一个引脚*/</span>
+        <span class="n">pos</span> <span class="o">=</span> <span class="n">pinpos</span> <span class="o">&lt;&lt;</span> <span class="mi">2</span><span class="p">;</span>
+        <span class="cm">/* Clear the corresponding low control register bits */</span> <span class="cm">/*以下两个句子，把控制这个引脚的 4 个寄存器位清零，其它寄存器位不变*/</span>
+        <span class="n">pinmask</span> <span class="o">=</span> <span class="p">((</span><span class="kt">uint32_t</span><span class="p">)</span><span class="mh">0x0F</span><span class="p">)</span> <span class="o">&lt;&lt;</span> <span class="n">pos</span><span class="p">;</span>
+        <span class="n">tmpreg</span> <span class="o">&amp;=</span> <span class="o">~</span><span class="n">pinmask</span><span class="p">;</span>
+        <span class="cm">/* Write the mode configuration in the corresponding bits */</span> <span class="cm">/* 向寄存器写入将要配置的引脚的模式 */</span>
+        <span class="n">tmpreg</span> <span class="o">|=</span> <span class="p">(</span><span class="n">currentmode</span> <span class="o">&lt;&lt;</span> <span class="n">pos</span><span class="p">);</span>
+        <span class="cm">/* Reset the corresponding ODR bit */</span> <span class="cm">/* 复位 GPIO 引脚的输入输出默认值*/</span>
+                <span class="cm">/*判断是否为下拉输入模式*/</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">GPIO_InitStruct</span><span class="o">-&gt;</span><span class="n">GPIO_Mode</span> <span class="o">==</span> <span class="n">GPIO_Mode_IPD</span><span class="p">)</span>
+        <span class="p">{</span>
+                    <span class="cm">/*下拉输入模式，引脚默认置 0，对 BRR 寄存器写 1 可对引脚置 0*/</span>
+          <span class="n">GPIOx</span><span class="o">-&gt;</span><span class="n">BRR</span> <span class="o">=</span> <span class="p">(((</span><span class="kt">uint32_t</span><span class="p">)</span><span class="mh">0x01</span><span class="p">)</span> <span class="o">&lt;&lt;</span> <span class="n">pinpos</span><span class="p">);</span>
+        <span class="p">}</span>
+        <span class="k">else</span>
+        <span class="p">{</span>
+          <span class="cm">/* Set the corresponding ODR bit */</span> <span class="cm">/*判断是否为上拉输入模式*/</span>
+          <span class="k">if</span> <span class="p">(</span><span class="n">GPIO_InitStruct</span><span class="o">-&gt;</span><span class="n">GPIO_Mode</span> <span class="o">==</span> <span class="n">GPIO_Mode_IPU</span><span class="p">)</span>
+          <span class="p">{</span>
+                        <span class="cm">/*上拉输入模式，引脚默认值为 1，对 BSRR 寄存器写 1 可对引脚置 1*/</span>
+            <span class="n">GPIOx</span><span class="o">-&gt;</span><span class="n">BSRR</span> <span class="o">=</span> <span class="p">(((</span><span class="kt">uint32_t</span><span class="p">)</span><span class="mh">0x01</span><span class="p">)</span> <span class="o">&lt;&lt;</span> <span class="n">pinpos</span><span class="p">);</span>
+          <span class="p">}</span>
+        <span class="p">}</span>
+      <span class="p">}</span>
+    <span class="p">}</span>
+        <span class="cm">/*把前面处理后的暂存值写入到 CRL 寄存器之中*/</span>
+    <span class="n">GPIOx</span><span class="o">-&gt;</span><span class="n">CRL</span> <span class="o">=</span> <span class="n">tmpreg</span><span class="p">;</span>
+  <span class="p">}</span>
+<span class="cm">/*---------------------------- GPIO CRH Configuration ------------------------*/</span>
+<span class="cm">/*对 CRH 寄存器配置的，当要配置的引脚为 pin8 ~~ pin15 的时候，配置 CRH 寄存器，这过程和配置 CRL 寄存器类似*/</span>
+  <span class="cm">/* Configure the eight high port pins */</span>
+  <span class="k">if</span> <span class="p">(</span><span class="n">GPIO_InitStruct</span><span class="o">-&gt;</span><span class="n">GPIO_Pin</span> <span class="o">&gt;</span> <span class="mh">0x00FF</span><span class="p">)</span>
+  <span class="p">{</span>
+    <span class="n">tmpreg</span> <span class="o">=</span> <span class="n">GPIOx</span><span class="o">-&gt;</span><span class="n">CRH</span><span class="p">;</span>
+    <span class="k">for</span> <span class="p">(</span><span class="n">pinpos</span> <span class="o">=</span> <span class="mh">0x00</span><span class="p">;</span> <span class="n">pinpos</span> <span class="o">&lt;</span> <span class="mh">0x08</span><span class="p">;</span> <span class="n">pinpos</span><span class="o">++</span><span class="p">)</span>
+    <span class="p">{</span>
+      <span class="n">pos</span> <span class="o">=</span> <span class="p">(((</span><span class="kt">uint32_t</span><span class="p">)</span><span class="mh">0x01</span><span class="p">)</span> <span class="o">&lt;&lt;</span> <span class="p">(</span><span class="n">pinpos</span> <span class="o">+</span> <span class="mh">0x08</span><span class="p">));</span>
+      <span class="cm">/* Get the port pins position */</span>
+      <span class="n">currentpin</span> <span class="o">=</span> <span class="p">((</span><span class="n">GPIO_InitStruct</span><span class="o">-&gt;</span><span class="n">GPIO_Pin</span><span class="p">)</span> <span class="o">&amp;</span> <span class="n">pos</span><span class="p">);</span>
+      <span class="k">if</span> <span class="p">(</span><span class="n">currentpin</span> <span class="o">==</span> <span class="n">pos</span><span class="p">)</span>
+      <span class="p">{</span>
+        <span class="n">pos</span> <span class="o">=</span> <span class="n">pinpos</span> <span class="o">&lt;&lt;</span> <span class="mi">2</span><span class="p">;</span>
+        <span class="cm">/* Clear the corresponding high control register bits */</span>
+        <span class="n">pinmask</span> <span class="o">=</span> <span class="p">((</span><span class="kt">uint32_t</span><span class="p">)</span><span class="mh">0x0F</span><span class="p">)</span> <span class="o">&lt;&lt;</span> <span class="n">pos</span><span class="p">;</span>
+        <span class="n">tmpreg</span> <span class="o">&amp;=</span> <span class="o">~</span><span class="n">pinmask</span><span class="p">;</span>
+        <span class="cm">/* Write the mode configuration in the corresponding bits */</span>
+        <span class="n">tmpreg</span> <span class="o">|=</span> <span class="p">(</span><span class="n">currentmode</span> <span class="o">&lt;&lt;</span> <span class="n">pos</span><span class="p">);</span>
+        <span class="cm">/* Reset the corresponding ODR bit */</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">GPIO_InitStruct</span><span class="o">-&gt;</span><span class="n">GPIO_Mode</span> <span class="o">==</span> <span class="n">GPIO_Mode_IPD</span><span class="p">)</span>
+        <span class="p">{</span>
+          <span class="n">GPIOx</span><span class="o">-&gt;</span><span class="n">BRR</span> <span class="o">=</span> <span class="p">(((</span><span class="kt">uint32_t</span><span class="p">)</span><span class="mh">0x01</span><span class="p">)</span> <span class="o">&lt;&lt;</span> <span class="p">(</span><span class="n">pinpos</span> <span class="o">+</span> <span class="mh">0x08</span><span class="p">));</span>
+        <span class="p">}</span>
+        <span class="cm">/* Set the corresponding ODR bit */</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">GPIO_InitStruct</span><span class="o">-&gt;</span><span class="n">GPIO_Mode</span> <span class="o">==</span> <span class="n">GPIO_Mode_IPU</span><span class="p">)</span>
+        <span class="p">{</span>
+          <span class="n">GPIOx</span><span class="o">-&gt;</span><span class="n">BSRR</span> <span class="o">=</span> <span class="p">(((</span><span class="kt">uint32_t</span><span class="p">)</span><span class="mh">0x01</span><span class="p">)</span> <span class="o">&lt;&lt;</span> <span class="p">(</span><span class="n">pinpos</span> <span class="o">+</span> <span class="mh">0x08</span><span class="p">));</span>
+        <span class="p">}</span>
+      <span class="p">}</span>
+    <span class="p">}</span>
+    <span class="n">GPIOx</span><span class="o">-&gt;</span><span class="n">CRH</span> <span class="o">=</span> <span class="n">tmpreg</span><span class="p">;</span>
+  <span class="p">}</span>
+<span class="p">}</span></code></pre></div>
+
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <!--<h2 class="footer-heading">Turbo Chen</h2>-->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li>Turbo Chen</li>
+          <li><a href="mailto:TurboChen@aliyun.com">TurboChen@aliyun.com</a></li>
+          <li class="copyright">© 2014-2015 TurboChen.com, <br>All Right Reserved</li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+
+          
+
+          
+          <li>
+            <a href="https://github.com/turbochen">
+              <span class="icon  icon--github">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
+                </svg>
+              </span>
+
+              <span class="username">turbochen</span>
+            </a>
+          </li>
+          
+
+          
+
+          
+
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+        <p class="text">◕‿◕<br>
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
